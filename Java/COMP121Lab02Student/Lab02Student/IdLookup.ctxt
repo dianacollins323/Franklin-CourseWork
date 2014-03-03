@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=id
+comment0.target=IdLookup(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ IdLookup.\r\n\ @param\ id\ the\ id\ to\ lookup.\r\n
+comment1.params=item
+comment1.target=boolean\ matches(Item)
+comment1.text=\r\n\ Indicates\ whether\ the\ item's\ id\ exactly\ matches\ the\ id\r\n\ passed\ into\ the\ contructor.\r\n\ @param\ item\ the\ item\ being\ checked\ for\ a\ match.\r\n\ @return\ true\ if\ the\ id\ of\ the\ item\ matches,\ otherwise\r\n\ false.\r\n
+numComments=2

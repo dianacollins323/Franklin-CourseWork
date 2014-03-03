@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=item
+comment0.target=boolean\ add(Item)
+comment0.text=\r\n\ Add\ an\ item\ to\ the\ inventory.\ \ The\ parameter\ item\r\n\ should\ not\ be\ something\ already\ in\ the\ inventory.\ \ As\ a\r\n\ result\ of\ adding\ an\ item,\ the\ item\ will\ be\ assigned\ an\ ID\ starting\r\n\ with\ 1\ and\ increasing\ by\ 1\ for\ each\ item\ added.\ \ IDs\r\n\ are\ not\ reused.\ \ All\ items\ are\ kept\r\n\ in\ a\ database\ internal\ to\ the\ inventory\ so\ that\ they\ may\ be\ searched\r\n\ for\ using\ a\ query.\r\n\ @param\ item\ the\ item\ to\ add.\r\n\ @return\ true\ when\ the\ item\ is\ added,\ false\ if\ the\ item\ cannot\r\n\ be\ added\ for\ any\ reason.\r\n
+comment1.params=id
+comment1.target=boolean\ remove(java.lang.String)
+comment1.text=\r\n\ Remove\ an\ item.\ \ The\ id\ should\ be\ the\ id\ of\r\n\ an\ item\ in\ the\ inventory.\ \ The\ item\ with\ the\ \r\n\ specified\ id\ is\ located\ in\ inventory\ and\ removed.\r\n\ @param\ id\ the\ id\ of\ the\ item\ to\ remove.\r\n\ @return\ true\ if\ the\ item\ was\ found\ and\ removed,\ false\ otherwise.\r\n
+comment2.params=
+comment2.target=int\ getItemCount()
+comment2.text=\r\n\ Return\ the\ number\ of\ items\ presently\ in\ inventory.\r\n\ @return\ the\ number\ of\ items.\r\n
+comment3.params=query
+comment3.target=Item[]\ findItems(Lookup)
+comment3.text=\r\n\ Create\ and\ return\ an\ array\ of\ items\ that\ match\ the\ given\ query\r\n\ criteria.\ \ The\ query\ will\ identify\ which\ items\ match.\ \ The\ length\r\n\ of\ the\ returned\ array\ should\ be\ equal\ to\ the\ number\ of\ items\r\n\ that\ match,\ and\ each\ element\ in\ the\ array\ should\ be\ a\ matching\r\n\ item.\r\n\ @param\ query\ a\ query\ indicating\ which\ items\ to\ find\r\n\ @return\ an\ array\ of\ matching\ items.\r\n
+numComments=4

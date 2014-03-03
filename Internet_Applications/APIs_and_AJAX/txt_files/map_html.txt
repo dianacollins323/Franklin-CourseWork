@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+    Description: This document displays the map page for the Girl Scout Troop 700
+    Author: Diana Collins
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Girl Scout Troop 700</title>
+        <link rel="shortcut icon" href="images/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="scouts.css" />
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+        <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrHGmhQsUmwjkTqfq6tCP1w065mw_yrbw&sensor=false">
+        </script>
+        <script type="text/javascript">
+            function initialize() {
+                var myLatlng = new google.maps.LatLng(40.81446,-81.404806)
+                var mapProp = {
+                  center:myLatlng,
+                  zoom:15,
+                  mapTypeId:google.maps.MapTypeId.ROADMAP
+                  };
+                var map=new google.maps.Map(document.getElementById("googleMap")
+                  ,mapProp);
+                var marker=new google.maps.Marker({
+                  position:myLatlng,
+                  icon:'images/mapIcon.png'
+                  });
+                marker.setMap(map);
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+    </head>
+    <body>
+        <!-- main page header -->
+        <header>
+            <img src="images/logo.png" alt="Town Hall Logo">
+            <hgroup>
+                <h1 id="header">Girl Scout Troop 700</h1>
+                <h2 class="sub_headers"><i>Tomorrow's leaders making a difference today!</i></h2>
+            </hgroup>
+        </header>
+        <!-- main navigation -->
+        <nav>
+            <ul id="nav">
+                <li class="nav"><a href="/APIs_and_AJAX/scouts.html">Home</a></li>
+                <li class="nav"><a href="/APIs_and_AJAX/gallery.html">Gallery</a></li>
+                <li class="nav"><a href="/APIs_and_AJAX/map.html">Map</a></li>
+            </ul>
+        </nav>
+        <!-- main content section -->
+        <section>
+            <div id="googleMap" style="width:500px;height:380px;"></div>
+        </section>
+        <!-- aside content section -->
+        <aside>
+            <h2>Troop Meeting Location</h2>
+            <p>
+                Our troop meetings take place at the First E. C. Church, located at the corner of Broad Ave. and 15th Street NW.
+            </p>
+            <p>
+                1501 Broad Ave. NW<br>
+                Canton, OH 44708
+            </p>
+            <p>
+                For more information contact 
+                <a href="mailto:dianacollins323@gmail.com?Subject=Girl%20Scouts" target="_top">Diana Collins</a><br>
+                (330) 555-1212
+            </p>
+        </aside>
+        <!-- page footer -->
+        <footer>
+            <p id="footer_text">This page is maintained by the troop leader: 
+                <a href="mailto:dianacollins323@gmail.com?Subject=Girl%20Scouts" target="_top">Diana Collins</a>
+            </p>
+        </footer>
+    </body>
+</html>

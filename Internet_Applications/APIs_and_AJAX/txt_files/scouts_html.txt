@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--
+    Description: This document displays the home page for the Girl Scout Troop 700
+    Author: Diana Collins
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Girl Scout Troop 700</title>
+        <link rel="shortcut icon" href="images/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="scouts.css" />
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+        <script type='text/javascript'>
+            function GCalEvents() {
+                /*get next 6 calendar events*/
+                var calendar_json_url = "https://www.google.com/calendar/feeds/aekso2hk4t3fr3utpjlqvof87s%40group.calendar.google.com/public/basic?orderby=starttime&sortorder=ascending&max-results=6&futureevents=true&alt=json";
+                /*print next 6 calendar events in new tr and td tags*/
+                jQuery.getJSON(calendar_json_url, function(data) {
+                    jQuery.each(data.feed.entry, function(i, item) {
+                        /*split item.content.$t to retrieve only the date*/
+                        var getDate = item.content.$t.split("<br");
+                        var date = getDate[0].split(":");
+                        jQuery("#gcal-events tr").last().after("<tr><td>" + date[1] + ": " + item.title.$t + "</td></tr>");
+                    })
+                })
+            }
+            /*Create and load a new google custom search bar on page.
+              Will search gsneo.org and girlscouts.org websites.*/
+            google.load("search","1");
+            function OnLoad() {
+                var customSearchControl = new google.search.CustomSearchControl('012157912978810372049:-cv6ao3zqua');
+                customSearchControl.draw('content');
+                customSearchControl.execute('ajax api');
+            }
+            google.setOnLoadCallback(OnLoad);
+        </script>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Town Hall Logo">
+            <hgroup>
+                <h1 id="header">Girl Scout Troop 700</h1>
+                <h2 class="sub_headers"><i>Tomorrow's leaders making a difference today!</i></h2>
+            </hgroup>
+        </header>
+        <!-- main navigation -->
+        <nav>
+            <ul id="nav">
+                <li class="nav"><a href="/APIs_and_AJAX/scouts.html">Home</a></li>
+                <li class="nav"><a href="/APIs_and_AJAX/gallery.html">Gallery</a></li>
+                <li class="nav"><a href="/APIs_and_AJAX/map.html">Map</a></li>
+            </ul>
+        </nav>
+        <!-- main content section -->
+        <section>
+            <h1>Coming Activies</h1>
+            <!--table to displat calendar events-->
+            <table id="gcal-events">
+                <tr></tr>
+            </table>
+            <h1>Homework for Next Meeting</h1>
+            <h2 class="aside_headers">Brownies</h2>
+            <p>This is step 2 of your Citizenship Badge.</p>
+            <h3>Background:</h3>
+            <p>
+        	    Many celebrations and ceremonies have their own special songs.  Think of wedding ceremonies, holiday parades, even birthdays.  
+            </p>
+            <h3>What to do:</h3>
+            <ul>
+                <li>Choose three celebratory songs.</li>
+                <li>Bring the songs to the next meeting.</li>
+            </ul>
+            <h2 class="aside_headers">Juniors</h2>
+            <p>
+                This is step 4 of your Citizenship Badge
+            </p>
+            <h3>What to do:</h3>
+            <ul>
+                <li>Follow the local news every day for one week.</li>
+                <li>What stories do you think are most important to your community?</li>
+                <li>Choose one, and write your opinion in a letter to the editor of your local paper.</li>
+                <li>Bring the letter with you next time, we'll have stamped envelopes for you to address.</li>
+            </ul>
+            <h3>Thoughts:</h3>
+            <p>
+                Too many letters are received for the paper to publish everyone—but it’s still a good try.  Local officials read letters to the editor to get ideas about what laws to put in place! 
+            </p>
+            <p>
+                See you at the next meeting!
+            </p>
+            <p>
+                <b>Contact the Leader, </b> 
+                <a href="mailto:girlscouttroop60700@gmail.com?Subject=Girl%20Scouts" target="_top">Diana Collins</a>
+            </p>
+        </section>
+        <!-- aside content section -->
+        <aside>
+            <h3 class="aside_headers">Search GSNEO.org &amp; GirlScouts.org <br> for more information.</h3>
+            <script>
+                (function() {
+                    var cx = '014463114119145340969:kcp5snqe9wa';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                        '//www.google.com/cse/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.style.width = '50%';
+                    s.parentNode.insertBefore(gcse, s);
+                })();
+            </script>
+            <gcse:search></gcse:search>
+    	    <h2>Current Badge Work</h2>
+    	    <h3 class="aside_headers">Brownies</h3>
+    	    <ul>
+                <li class="badges">Artist - Painting</li>
+                <li class="badges">Citizen - Celebrating Community</li>
+                <li class="badges">Cook - Snacks</li>
+                <li class="badges">Financial Literacy - Philanthropist</li>
+                <li class="badges"></li>
+            </ul>
+    	    <h3 class="aside_headers">Juniors</h3>
+    	    <ul>
+                <li class="badges">Artist - Drawing</li>
+                <li class="badges">Citizen - Inside Government</li>
+                <li class="badges">Cook - Simple Meals</li>
+                <li class="badges">Financial Literacy - Savvy Shopper</li>
+                <li class="badges"></li>
+            </ul>
+        </aside>
+        <!-- page footer -->
+        <footer>
+            <p id="footer_text">This page is maintained by the troop leader: 
+                <a href="mailto:dianacollins323@gmail.com?Subject=Girl%20Scouts" target="_top">Diana Collins</a>
+            </p>
+        </footer>
+        <script type="text/javascript" charset="utf-8">
+            $(document).ready(GCalEvents());
+        </script>
+    </body>
+</html>

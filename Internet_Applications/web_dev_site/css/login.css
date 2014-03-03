@@ -1,0 +1,35 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #E6E6E6;
+    padding: 10px;
+}
+
+#page-content-wrapper {
+    border: 1px solid #000;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#formHeader {
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.form {
+    border-top: 1px solid #E6E6E6;
+    margin: auto;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    vertical-align: top;
+}
+
+.errors {
+    margin: auto;
+    padding: 10px;
+    color: red;
+}

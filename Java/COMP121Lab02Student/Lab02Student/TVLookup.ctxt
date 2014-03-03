@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=size\ type
+comment0.target=TVLookup(int,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ IdLookup.\r\n\ @param\ size\ the\ size\ of\ the\ television\ to\ lookup.\r\n\ @param\ type\ the\ type\ of\ the\ teleivision\ to\ lookup.\r\n
+comment1.params=item
+comment1.target=boolean\ matches(Item)
+comment1.text=\r\n\ Indicates\ whether\ the\ item\ matches\ the\ size\ and\ type\r\n\ passed\ into\ the\ contructor.\r\n\ @param\ item\ the\ item\ being\ checked\ for\ a\ match.\r\n\ @return\ true\ if\ the\ size\ and\ type\ match,\ otherwise\r\n\ false.\ Note\ that\ case\ should\ be\ ignored\ when\ matching\r\n\ the\ type.\r\n
+numComments=2

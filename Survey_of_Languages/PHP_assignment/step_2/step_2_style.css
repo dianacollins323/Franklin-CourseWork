@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    color:#3f0080;
+}
+label {
+    width: 100px;
+    float: left;
+}
+input {
+    float: left;
+    width: 150px;
+    margin-bottom: 5px;
+}
+br {
+    clear: left;
+}
+h1 {
+    margin-top: 0;
+    color: #770e0e;
+}
+#form {
+    width: 275px;
+    margin: 0 auto;
+    padding: 20px 20px 30px 20px;
+    background: white;
+    border: 2px solid #770e0e;
+}
+#feedback {
+    width: 275px;
+    margin: 0 auto;
+    padding: 20px 20px 30px 20px;
+    background: white;
+    border: 2px solid #770e0e;
+}
+#btn {
+    color: #3f0080;
+}

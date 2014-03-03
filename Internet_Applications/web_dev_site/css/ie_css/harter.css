@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+#wrapper {
+    text-align: left;
+    margin: 0 auto;
+}
+
+#contentContainer {
+    text-align: center;
+}
+
+#header-image {
+    height: 110px;
+    margin-left: 75px;
+    margin-top: 5px;
+}
+
+.formDiv {
+    text-align: left;
+}

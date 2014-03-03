@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Television()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Television.\r\n
+comment1.params=
+comment1.target=int\ getSize()
+comment1.text=\r\n\ Return\ the\ size\ of\ the\ television.\r\n\ @return\ the\ size.\r\n
+comment2.params=screenSize
+comment2.target=void\ setSize(int)
+comment2.text=\r\n\ Change\ the\ size\ of\ the\ television\ to\ the\ given\r\n\ parameter.\r\n\ @param\ screenSize\ the\ new\ size.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getType()
+comment3.text=\r\n\ Return\ the\ type\ of\ the\ television.\r\n\ @return\ the\ type.\r\n
+comment4.params=screenType
+comment4.target=void\ setType(java.lang.String)
+comment4.text=\r\n\ Change\ the\ type\ of\ the\ television\ to\ the\ given\r\n\ parameter.\r\n\ @param\ screenType\ the\ new\ type.\r\n
+comment5.params=o
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\r\n\ overriding\ equals\ method\ to\ account\ for\ \r\n\ television\ size\ and\ type\r\n\ @param\ o\ reference\ to\ item\ to\ match\r\n\ @return\ true\ if\ item\ is\ exact\ match\ \r\n\ false\ otherwise\r\n
+numComments=6

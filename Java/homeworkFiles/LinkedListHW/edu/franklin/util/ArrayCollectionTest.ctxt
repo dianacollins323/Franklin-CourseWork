@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=class\ ArrayCollectionTest
+comment0.text=\nTest\ cases\ specific\ to\ the\ concrete\ class\ ArrayCollection.\ \ Most\ of\ the\ntest\ cases\ for\ the\ concrete\ implementation\ are\ inherited\ from\nAbstractCollectionTest.\n\n@author\ Todd\ A.\ Whittaker\n@version\ 2005-09\n\n
+comment1.params=
+comment1.target=void\ testBadCreating()
+comment1.text=\nTry\ to\ create\ an\ ArrayCollection\ with\ a\ bad\ initial\ capacity.\n\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\nTears\ down\ the\ test\ fixture.\n\nCalled\ after\ every\ test\ case\ method.\n\n
+comment3.params=
+comment3.target=void\ setUp()
+comment3.text=\nSets\ up\ the\ test\ fixture.\n\nCalled\ before\ every\ test\ case\ method.\n\n
+comment4.params=generator
+comment4.target=<E>\ Collection<E>\ getCollection(DataGenerator<E>)
+comment4.text=\nCreates\ an\ ArrayCollection\ containing\ data\ from\ the\ specified\ngenerator.\n@param\ <E>\ the\ type\ of\ data\ to\ generate\n@param\ generator\ the\ object\ which\ will\ provide\ the\ data\n@return\ an\ ArrayCollection\ containing\ the\ data\n\n
+comment5.params=
+comment5.target=ArrayCollectionTest()
+comment5.text=\nDefault\ constructor\ for\ test\ class\ ArrayCollectionTest.\n\n
+numComments=6

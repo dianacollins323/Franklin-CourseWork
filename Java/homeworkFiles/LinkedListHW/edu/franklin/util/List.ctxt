@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=interface\ List
+comment0.text=\nList\ is\ an\ extension\ of\ collection\ that\ adds\ the\ concepts\ of\ order,\nindexed\ operations\ and\ bi-directional\ iteration.\ \ The\ order\ of\ the\ncollection\ is\ guaranteed\ (unlike\ sets\ or\ collections).\ \ Operations\nmay\ now\ take\ place\ at\ particular\ indices.\ \ Finally,\ the\ list\ iterator\ncan\ move\ both\ forward\ and\ backward\ through\ the\ list\ and\ add\ elements\nas\ well\ as\ remove\ them\ at\ iterator\ positions.\n@param\ <E>\ the\ type\ of\ data\ to\ hold\ in\ the\ list\n\n@author\ Todd\ A.\ Whittaker\n@version\ 2005-09\n\n
+comment1.params=index
+comment1.target=E\ get(int)
+comment1.text=\nReturns\ the\ element\ of\ the\ list\ located\ at\ the\ specified\ index.\n@param\ index\ the\ location\ of\ the\ element\n@return\ the\ element\ at\ the\ index\n\n
+comment10.params=index\ obj
+comment10.target=void\ add(int,E)
+comment10.text=\nInserts\ the\ element\ into\ the\ list\ at\ the\ given\ location.\n@param\ index\ the\ location\ at\ which\ to\ insert\n@param\ obj\ the\ object\ to\ add\ to\ the\ collection\n\n
+comment2.params=index
+comment2.target=E\ remove(int)
+comment2.text=\nRemoves\ the\ element\ from\ the\ list\ at\ the\ specified\ index.\n@param\ index\ the\ index\ of\ the\ object\ to\ be\ removed\n@throws\ IndexOutOfBoundsException\ if\ index\ <\ 0\ or\ index\ >\=\ size()\n\n
+comment3.params=obj
+comment3.target=int\ indexOf(Object)
+comment3.text=\nReturns\ the\ location\ in\ the\ list\ of\ the\ first\ element\ that\ matches\nthe\ parameter\ object\ <tt>obj</tt>\ according\ to\ its\ equals\ method.\n@param\ obj\ the\ object\ for\ which\ to\ search\n@return\ the\ first\ index\ (from\ 0)\ where\ the\ object\ is\ found,\ or\ -1\nif\ the\ object\ is\ not\ found\ in\ the\ list\n\n
+comment4.params=fromIndex\ toIndex
+comment4.target=List<E>\ subList(int,int)
+comment4.text=\nCreate\ a\ sublist\ of\ this\ list\ between\ the\ given\ indices.\ \ The\ sublist\nis\ not\ a\ copy\ of\ the\ elements\ of\ this\ list,\ but\ rather\ a\ restricted\nview\ on\ them.\ \ Thus,\ any\ insertions,\ deletions,\ or\ replacements\nof\ elements\ in\ the\ sublist\ will\ affect\ the\ original\ list.\n@param\ fromIndex\ the\ starting\ index\ (inclusive)\ of\ the\ sublist\n@param\ toIndex\ the\ ending\ index\ (exclusive)\ of\ the\ sublist\n@return\ a\ restricted\ view\ on\ this\ list\n@throws\ IndexOutOfBoundsException\ if\ either\ index\ is\ <\ 0\ or\ >\ size.\n\n
+comment5.params=index\ obj
+comment5.target=E\ set(int,E)
+comment5.text=\nReplaces\ the\ element\ at\ the\ specified\ index\ with\ the\ parameter\nelement.\ \ Returns\ the\ element\ which\ was\ replaced.\n@param\ index\ the\ index\ of\ the\ object\ to\ be\ replaced\n@param\ obj\ the\ object\ to\ use\ as\ a\ replacement\n@return\ the\ object\ originally\ at\ the\ location\n@throws\ IndexOutOfBoundsException\ if\ index\ <\ 0\ or\ index\ >\=\ size()\n\n
+comment6.params=index\ coll
+comment6.target=boolean\ addAll(int,Collection<?\ extends\ E>)
+comment6.text=\nInserts\ all\ the\ elements\ of\ <tt>coll</tt>\ into\ this\ collection\ at\nthe\ specified\ location.\ \ If\ both\ this\ collection\ and\ the\ parameter\nare\ the\ same\ collection,\ then\ the\ operational\ behavior\ is\ undefined\n(i.e.\ bad\ things\ can\ happen).\n@param\ index\ the\ location\ at\ which\ to\ insert\n@param\ coll\ the\ collection\ from\ which\ to\ draw\ elements\ for\ addition.\n@return\ true\ when\ this\ collection\ is\ modified\ as\ a\ result.\n\n
+comment7.params=
+comment7.target=ListIterator<E>\ listIterator()
+comment7.text=\nReturns\ a\ ListIterator\ over\ the\ elements\ in\ this\ list.\ \ The\ starting\nposition\ for\ the\ list\ iterator\ will\ be\ the\ 0th\ element.\n@return\ a\ ListIterator\ over\ the\ elements\ in\ this\ list.\n\n
+comment8.params=index
+comment8.target=ListIterator<E>\ listIterator(int)
+comment8.text=\nReturns\ a\ ListIterator\ over\ the\ elements\ in\ this\ list\ starting\ at\nthe\ given\ position.\n@param\ index\ the\ starting\ index\ for\ iteration\n@throws\ IndexOutOfBoundsException\ if\ the\ index\ <\ 0\ or\ index\ >\ size()\n\n
+comment9.params=obj
+comment9.target=int\ lastIndexOf(Object)
+comment9.text=\nReturns\ the\ location\ in\ the\ list\ of\ the\ last\ element\ that\ matches\nthe\ parameter\ object\ <tt>obj</tt>\ according\ to\ its\ equals\ method.\n@param\ obj\ the\ object\ for\ which\ to\ search\n@return\ the\ last\ index\ (from\ 0)\ where\ the\ object\ is\ found,\ or\ -1\nif\ the\ object\ is\ not\ found\ in\ the\ list\n\n
+numComments=11

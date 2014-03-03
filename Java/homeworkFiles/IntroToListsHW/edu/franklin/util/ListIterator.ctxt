@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=obj
+comment0.target=void\ add(java.lang.Object)
+comment0.text=\r\n\ Inserts\ the\ specified\ element\ into\ the\ list\ at\ the\ present\ iterator\r\n\ position.\ \ The\ insertion\ point\ is\ before\ the\ element\ that\ would\ be\r\n\ returned\ by\ a\ call\ to\ <tt>next</tt>\ and\ after\ the\ element\ that\ would\r\n\ be\ returned\ by\ a\ call\ to\ <tt>previous</tt>.\ \ After\ adding\ the\ element,\r\n\ a\ call\ to\ <tt>previous</tt>\ will\ return\ the\ newly\ inserted\ element,\r\n\ but\ a\ call\ to\ <tt>next</tt>\ will\ return\ the\ element\ immediately\r\n\ after\ the\ one\ inserted.\r\n\ @param\ obj\ the\ element\ to\ insert\r\n
+comment1.params=
+comment1.target=boolean\ hasPrevious()
+comment1.text=\r\n\ Returns\ true\ when\ the\ iterator\ has\ more\ data\ to\ return\ in\ the\r\n\ reverse\ direction.\r\n\ @return\ true\ if\ the\ iterator\ has\ more\ data\r\n
+comment2.params=
+comment2.target=int\ nextIndex()
+comment2.text=\r\n\ Returns\ the\ index\ of\ the\ element\ that\ would\ be\ returned\ should\r\n\ a\ subsequent\ call\ to\ <tt>next</tt>\ be\ made.\r\n\ @return\ the\ index\ of\ the\ next\ element\r\n
+comment3.params=
+comment3.target=java.lang.Object\ previous()
+comment3.text=\r\n\ Returns\ the\ element\ from\ the\ iteration\ when\ traversing\ in\ the\r\n\ reverse\ direction.\r\n\ @return\ the\ previous\ data\ element\r\n
+comment4.params=
+comment4.target=int\ previousIndex()
+comment4.text=\r\n\ Returns\ the\ index\ of\ the\ element\ that\ would\ be\ returned\ should\r\n\ a\ subsequent\ call\ to\ <tt>previous</tt>\ be\ made.\r\n\ @return\ the\ index\ of\ the\ previous\ element\r\n
+comment5.params=obj
+comment5.target=void\ set(java.lang.Object)
+comment5.text=\r\n\ Replaces\ the\ last\ element\ returned\ by\ either\ <tt>next</tt>\ or\r\n\ <tt>previous</tt>.\ \ Cannot\ be\ called\ immediately\ after\ <tt>add</tt>\r\n\ or\ <tt>remove</tt>.\r\n\ @param\ obj\ the\ object\ with\ which\ to\ replace\ the\ one\ returned\r\n\ earlier.\r\n
+numComments=6

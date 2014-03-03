@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=class\ RandomIntegerGenerator
+comment0.text=\nA\ generator\ of\ random\ Integer\ data.\n\n@author\ Todd\ A.\ Whittaker\n@version\ 2005-09\n\n
+comment1.params=
+comment1.target=boolean\ hasNext()
+comment1.text=\nReturns\ true\ when\ the\ generator\ has\ more\ data\ to\ return.\n@return\ true\ if\ the\ generator\ has\ more\ data\n\n
+comment10.target=totalCount
+comment2.target=random
+comment3.params=
+comment3.target=Integer\ next()
+comment3.text=\nReturns\ the\ next\ element\ from\ the\ generator.\n@return\ the\ next\ data\ element\n\n
+comment4.target=seed
+comment5.params=
+comment5.target=DataGenerator<Integer>\ reset()
+comment5.text=\nResets\ the\ generator\ back\ to\ the\ initial\ state.\n@return\ the\ reset\ generator.\n\n
+comment6.target=currentCount
+comment7.target=seedUniquifier
+comment8.params=count
+comment8.target=RandomIntegerGenerator(int)
+comment8.text=\nConstruct\ a\ generator\ based\ on\ the\ system\ time.\n@param\ count\ the\ number\ of\ random\ integers\ to\ generate\n\n
+comment9.params=initialSeed\ count
+comment9.target=RandomIntegerGenerator(long,int)
+comment9.text=\nConstruct\ a\ generator\ based\ on\ the\ provided\ seed.\n@param\ initialSeed\ the\ seed\ for\ a\ linear\ congruential\nrandom\ number\ generator\n@param\ count\ the\ number\ of\ random\ integers\ to\ generate\n\n
+numComments=11

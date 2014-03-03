@@ -1,0 +1,35 @@
+#BlueJ class context
+comment0.params=obj
+comment0.target=boolean\ contains(java.lang.Object)
+comment0.text=\r\n\ Searches\ the\ collection\ to\ determine\ if\ the\ collection\ contains\r\n\ an\ element\ that\ matches\ the\ specified\ object.\ \ If\ the\ specified\r\n\ object\ is\ null,\ it\ will\ look\ for\ a\ null\ in\ the\ collection.\ \ Otherwise\r\n\ it\ will\ use\ the\ <tt>equals</tt>\ method\ of\ the\ given\ object\ to\ \r\n\ determine\ equality.\ \ That\ is,\ <tt>o\ \=\=\ null\ ?\ element\ \=\=\ null\ \:\ \r\n\ o.equals(element)</tt>.\r\n\ @param\ obj\ the\ object\ to\ match\r\n\ @return\ true\ if\ the\ collection\ contains\ a\ matching\ element\r\n
+comment1.params=
+comment1.target=boolean\ isEmpty()
+comment1.text=\r\n\ Returns\ true\ if\ the\ collection\ contains\ no\ elements.\r\n\ @return\ true\ if\ the\ collection\ is\ empty.\r\n
+comment10.params=arr
+comment10.target=java.lang.Object[]\ toArray(java.lang.Object[])
+comment10.text=\r\n\ Returns\ an\ array\ containing\ the\ data\ from\ this\ collection.\ \ If\ the\r\n\ parameter\ array\ is\ large\ enough\ to\ hold\ the\ collection,\ then\ it\ is\r\n\ filled\ and\ returned.\ \ Otherwise,\ a\ new\ array\ of\ the\ same\ type\ is\r\n\ allocated,\ filled,\ and\ returned.\ \ If\ this\ collection\ preserves\ order\r\n\ then\ ten\ the\ order\ in\ the\ array\ will\ be\ the\ same\ as\ the\ order\ of\ the\r\n\ collection.\ The\ array\ returned\ will\ always\ be\ safe\ to\ be\ modified\r\n\ (i.e.\ it\ will\ be\ different\ from\ the\ underlying\ collection's\ array\r\n\ if\ the\ collection\ is\ array-backed).\r\n\ @return\ an\ array\ containing\ references\ to\ the\ collections\ elements.\r\n
+comment2.params=obj
+comment2.target=boolean\ remove(java.lang.Object)
+comment2.text=\r\n\ Removes\ the\ first\ element\ of\ this\ collection\ matching\ the\ parameter\r\n\ object\ <tt>obj</tt>.\ \ If\ the\ colleciton\ is\ altered\ as\ a\ result\ of\r\n\ the\ operation,\ <tt>remove</tt>\ returns\ <tt>true</tt>.\r\n\ @param\ obj\ the\ object\ to\ match\r\n\ @return\ true\ if\ the\ collection\ is\ altered,\ false\ otherwise.\r\n
+comment3.params=coll
+comment3.target=boolean\ removeAll(Collection)
+comment3.text=\r\n\ Removes\ all\ elements\ in\ this\ collection\ that\ match\ those\ in\ the\r\n\ parameter\ collection\ <tt>coll</tt>.\ \ When\ the\ operation\ completes,\r\n\ the\ two\ collections\ will\ be\ disjoint.\r\n\ @param\ coll\ the\ collection\ of\ elements\ to\ be\ removed\ from\ this\ one.\r\n\ @return\ true\ if\ this\ collection\ is\ altered\ as\ a\ result\ of\ the\ call.\r\n
+comment4.params=coll
+comment4.target=boolean\ retainAll(Collection)
+comment4.text=\r\n\ Retains\ all\ the\ elements\ in\ this\ collection\ that\ match\ those\ in\r\n\ the\ parameter\ collection\ <tt>coll</tt>.\ \ That\ is,\ it\ will\ remove\r\n\ all\ elements\ in\ this\ collection\ that\ have\ no\ match\ in\ <tt>coll</tt>.\r\n\ @parma\ coll\ the\ collection\ of\ elements\ to\ be\ matched\ against\r\n\ @return\ true\ if\ this\ collection\ is\ altered\ as\ a\ result\ of\ the\ call.\r\n
+comment5.params=
+comment5.target=void\ clear()
+comment5.text=\r\n\ Removes\ all\ elements\ from\ the\ collection.\ \ The\ collection\ will\r\n\ be\ empty\ after\ calling\ this\ method.\ \ This\ particular\ implementation\r\n\ is\ slow,\ as\ it\ uses\ the\ iterator\ to\ remove\ elements\ one\ at\ a\ time\r\n\ (for\ array-based\ collections,\ it\ is\ likely\ O(n^2).\ \ This\ should\r\n\ be\ overridden\ in\ the\ derived\ class.\r\n
+comment6.params=obj
+comment6.target=boolean\ equals(java.lang.Object)
+comment6.text=\r\n\ Compares\ the\ parameter\ object\ <tt>obj</tt>\ against\ this\ collection\r\n\ for\ equality.\ \ Care\ should\ be\ taken\ to\ ensure\ symmetry,\ transitivity,\r\n\ and\ reflexivity\ properties\ of\ equality.\ \ That\ is\:\ if\r\n\ <tt>a.equals(b)</tt>\ is\ true\ then\ <tt>b.equals(a)</tt>\ should\ also\ be\r\n\ true\ (symmetry);\ if\ <tt>a.equals(b)</tt>\ and\ <tt>b.equals(c)</tt>\ then\r\n\ <tt>a.equals(c)</tt>\ should\ be\ true\ (transitivity);\ and\ also\r\n\ <tt>a.equals(a)</tt>\ should\ also\ be\ true.\r\n\ \r\n\ The\ contract\ between\ <tt>equals</tt>\ and\ <tt>hashCode</tt>\ should\r\n\ also\ be\ kept.\ \ That\ is,\ if\ <tt>a.equals(b)</tt>\ is\ true\ then\r\n\ <tt>a.hashCode()\ \=\=\ b.hashCode()</tt>\ should\ also\ be\ true.\ \ The\r\n\ reverse\ is\ not\ true\ (equal\ hash\ codes\ do\ not\ imply\ object\ equality).\r\n\ \r\n\ @param\ obj\ the\ object\ against\ which\ to\ compare\ this\ collection.\r\n\ @return\ true\ if\ the\ object\ is\ equal\ to\ this\ collection.\r\n
+comment7.params=
+comment7.target=int\ hashCode()
+comment7.text=\r\n\ Returns\ the\ hash\ code\ value\ for\ this\ collection.\ \ This\ implementation\r\n\ is\ typical\ in\ that\ it\ aggregates\ the\ hash\ codes\ of\ the\ individual\r\n\ elements\ of\ the\ collection.\r\n\ @return\ the\ hash\ code\ of\ the\ collection.\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ Returns\ a\ string\ representation\ of\ the\ collection\ (with\ elements\r\n\ in\ a\ comma\ separated\ list).\ \ Collections\ that\ are\ recursive\r\n\ or\ mutually\ recursive\ are\ prevented\ from\ an\ infinite\ recursion\r\n\ and\ the\ second\ and\ subsequent\ instances\ of\ their\ data\ are\ returned\r\n\ as\ the\ string\ &quot;[...]&quot;.\r\n\ @return\ a\ string\ representation\ of\ the\ collection\r\n
+comment9.params=
+comment9.target=java.lang.Object[]\ toArray()
+comment9.text=\r\n\ Creates\ and\ returns\ an\ array\ containing\ the\ data\ from\ this\ collection.\r\n\ If\ this\ collection\ preserves\ order,\ then\ the\ order\ in\ the\ array\r\n\ will\ be\ the\ same\ as\ the\ order\ of\ the\ collection.\ \ The\ array\ returned\r\n\ will\ always\ be\ safe\ to\ be\ modified\ (i.e.\ it\ will\ be\ different\ from\r\n\ the\ underlying\ collection's\ array\ if\ the\ collection\ is\ array-backed).\r\n\ @return\ an\ array\ containing\ references\ to\ the\ collections\ elements.\r\n
+numComments=11

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArrayCollection()
+comment0.text=\r\n\ Constructs\ an\ empty\ collection\ with\ an\ initial\ capacity\ of\ 10.\r\n
+comment1.params=capacity
+comment1.target=ArrayCollection(int)
+comment1.text=\r\n\ Constructs\ an\ empty\ collection\ with\ the\ specified\ initial\r\n\ capacity.\r\n\ @param\ capacity\ the\ number\ of\ array\ elements\ to\ allocate\ initially\r\n\ @throws\ IllegalArgumentException\ if\ the\ specified\ initial\r\n\ capacity\ is\ negative\r\n
+comment2.params=
+comment2.target=void\ grow()
+comment2.text=\r\n\ Expands\ the\ array\ to\ 50%\ larger\ plus\ 1.\r\n
+comment3.params=obj
+comment3.target=boolean\ add(java.lang.Object)
+comment3.text=\r\n\ Inserts\ an\ element\ into\ a\ collection.\ \ Returns\ true\ if\ the\ collection\r\n\ is\ changed\ as\ a\ result\ of\ the\ operation,\ and\ false\ otherwise.\r\n\ @param\ obj\ the\ object\ to\ add\ into\ the\ collection\r\n\ @return\ true\ if\ the\ collection\ is\ altered\r\n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\r\n\ Returns\ the\ number\ of\ elements\ in\ the\ collection.\r\n\ @return\ the\ number\ of\ elements\ in\ the\ collection.\r\n
+comment5.params=
+comment5.target=void\ clear()
+comment5.text=\r\n\ Removes\ all\ elements\ from\ the\ collection.\ \ The\ collection\ will\r\n\ be\ empty\ after\ calling\ this\ method.\r\n
+comment6.params=
+comment6.target=Iterator\ iterator()
+comment6.text=\r\n\ Generate\ an\ iterator\ object.\r\n\ @return\ an\ iterator\ object.\r\n
+numComments=7

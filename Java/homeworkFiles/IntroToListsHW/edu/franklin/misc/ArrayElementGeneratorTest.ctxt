@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=class\ ArrayElementGeneratorTest
+comment0.text=\nThe\ test\ class\ ArrayElementGeneratorTest.\n\n@author\ Todd\ A.\ Whittaker\n@version\ 2005-09\n\n
+comment1.params=
+comment1.target=ArrayElementGeneratorTest()
+comment1.text=\nDefault\ constructor\ for\ test\ class\ ArrayElementGeneratorTest.\n\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\nTears\ down\ the\ test\ fixture.\n\nCalled\ after\ every\ test\ case\ method.\n\n
+comment3.params=
+comment3.target=void\ setUp()
+comment3.text=\nSets\ up\ the\ test\ fixture.\n\nCalled\ before\ every\ test\ case\ method.\n\n
+comment4.params=
+comment4.target=DataGenerator<Integer>\ getGenerator()
+comment4.text=\nGet\ the\ concrete\ implementation\ ArrayElementGenerator.\n@return\ an\ ArrayElementGenerator\n\n
+comment5.params=
+comment5.target=void\ testRightSequence()
+comment5.text=\nTests\ that\ the\ sequence\ matches\ the\ array\ data.\n\n
+comment6.target=data
+numComments=7

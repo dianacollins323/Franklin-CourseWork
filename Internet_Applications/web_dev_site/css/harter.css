@@ -1,0 +1,253 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #E6E6E6;
+    height: 100%;
+}
+
+#wrapper {
+    position: relative;
+    height: auto;
+    height: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 1000px;
+    border-left: 1px solid #820d0d;
+    border-right: 1px solid #820d0d;
+}
+
+#contentContainer {
+    background-color: #fff;
+    position: absolute;
+    top: 140;
+    right: 0;
+    height: auto;
+    height: 100%;
+    width: 750px;
+    margin-left: 250px;
+    margin-right: 0;
+}
+
+/*headers*/
+#header-cont{
+    background: #E6E6E6;
+    border-top: 5px solid #820d0d;
+    border-bottom: 5px solid #820d0d;
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    font-family: "Times New Roman";
+    font-size: 500%;
+    text-align: center;
+    color: #820d0d;
+    margin: 0;
+    height: 100px;
+    padding: 15px
+}
+
+#header-image {
+    float: left;
+    padding-left: 60px;
+}
+
+#content-header {
+    text-align: center;
+    margin: 0;
+    padding: 15px 18px;
+    font-size: 275%;
+    color: #820d0d;
+    border-bottom: 1px solid #E6E6E6;
+    width: 715px;
+    float: right;
+}
+
+/*content table*/
+#main-content {
+    margin: 0 auto;
+}
+
+#homeContent {
+    margin: 0 auto;
+    width: 350px;
+}
+
+#scheduleContent {
+    margin: 0 auto;
+    width: 350px;
+}
+
+#gradesContent {
+    margin: 0 auto;
+    width: 400px;
+}
+
+#formsContent {
+    margin: 0 auto;
+    width: 700px;
+}
+
+#disciplineContent {
+    margin: 0 auto;
+    width: 450px;
+}
+
+/*tr:nth-child(even) {
+    background: #E6E6E6;
+}*/
+
+.centerAll {
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #E6E6E6;
+    text-align: center;
+}
+
+.left {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.right {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.gradesLeft {
+    width: 200px;
+}
+
+.gradesMid {
+    width: 125px;
+}
+
+.disLeft {
+    width: 210px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.disRight {
+    width: 240;
+    text-align: left;
+    padding-left: 5px;
+}
+
+#eventHeader {
+    margin-bottom: 0px;
+    padding-top: 85px;
+    padding-left: 475px;
+    font-weight: bold;
+}
+
+#gcal-events {
+    font-size: 75%;
+    padding: 0 20px;
+    margin-top: 0;
+}
+
+#calendarContainer {
+    float: left;
+    padding: 20px;
+}
+
+/*navigation*/
+#menuContainer {
+    height: auto;
+    min-height: 100%;
+    width: 250px;
+    margin: 0;
+    background-color: #E6E6E6;
+}
+
+.sidebar-nav {
+    width: 250px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.menu {
+    line-height: 40px;
+    text-indent: 20px;
+    text-align: center;
+    border-top: 1px solid #820d0d;
+    background-color: #E6E6E6;
+}
+
+#first {
+    border: none;
+}
+
+.menu a {
+    color: #999999;
+    display: block;
+    text-decoration: none;
+    color: #820d0d;
+}
+
+.menu a:hover {
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+    text-decoration: none;
+}
+
+.menu a:active,
+.menu a:focus {
+    text-decoration: none;
+}
+
+/*open-hide assignments*/
+.hidden {
+    display: none;
+}
+.open {
+    display: block;
+}
+
+/*contact page style*/
+#formHeader {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.form {
+    border-top: 1px solid #E6E6E6;
+}
+
+.entries {
+    padding: 0;
+}
+
+label {
+    display: block;
+    vertical-align: top;
+}
+
+.formDiv {
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+}
+
+.error {
+    color: red;
+}
+
+/*link style*/
+a:link {
+    color: #820d0d;
+}
+
+a:visited {
+    color: #820d0d;
+}
+
+a:hover {
+    color: #999999;
+    text-decoration: none;
+}

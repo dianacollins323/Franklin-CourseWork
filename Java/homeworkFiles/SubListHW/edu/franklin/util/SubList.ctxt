@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=baseList\ fromIndex\ toIndex
+comment0.target=SubList(List,\ int,\ int)
+comment0.text=\r\n\ Constructs\ a\ sub-list\ of\ the\ <tt>baseList</tt>\ parameter\ between\r\n\ the\ given\ indices.\r\n\ @param\ baseList\ the\ list\ to\ decorate\r\n\ @param\ fromIndex\ the\ starting\ index\ of\ the\ sub-list\ (inclusive)\r\n\ @param\ toIndex\ the\ ending\ index\ of\ the\ sub-list\ (exclusive)\r\n
+comment1.params=
+comment1.target=int\ size()
+comment1.text=\r\n\ Returns\ the\ number\ of\ elements\ in\ the\ list.\r\n\ @return\ the\ number\ of\ elements\ in\ the\ list.\r\n
+comment2.params=fromIndex\ toIndex
+comment2.target=List\ subList(int,\ int)
+comment2.text=\r\n\ Returns\ a\ sub-list\ of\ a\ sub-list.\ \ To\ do\ this,\ we'll\ "re-decorate"\r\n\ the\ original\ list\ passed\ into\ the\ constructor,\ but\ with\ adjusted\r\n\ starting\ and\ ending\ indices.\r\n\ \r\n\ @param\ fromIndex\ the\ starting\ index\ (inclusive)\ of\ the\ sublist\r\n\ @param\ toIndex\ the\ ending\ index\ (exclusive)\ of\ the\ sublist\r\n\ @return\ a\ restricted\ view\ of\ the\ list\r\n
+comment3.params=index
+comment3.target=ListIterator\ listIterator(int)
+comment3.text=\r\n\ Returns\ a\ ListIterator\ over\ the\ elements\ in\ this\ list.\ \ The\ starting\r\n\ position\ for\ the\ list\ iterator\ will\ be\ the\ 0th\ element.\r\n\ @return\ a\ ListIterator\ over\ the\ elements\ in\ this\ list.\r\n
+numComments=4

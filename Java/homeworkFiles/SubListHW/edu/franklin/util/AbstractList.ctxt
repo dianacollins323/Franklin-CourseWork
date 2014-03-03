@@ -1,0 +1,35 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Iterator\ iterator()
+comment0.text=\r\n\ Generate\ an\ iterator\ object\ starting\ at\ the\ beginning\ of\ the\ list.\r\n\ @return\ an\ iterator\ object.\r\n
+comment1.params=
+comment1.target=ListIterator\ listIterator()
+comment1.text=\r\n\ Generate\ a\ list\ iterator\ (bi-directional)\ object\ starting\ at\ the\r\n\ beginning\ of\ the\ list.\r\n\ @return\ a\ list\ iterator\ object\r\n
+comment10.params=index
+comment10.target=void\ checkValidIndex(int)
+comment10.text=\r\n\ Used\ to\ check\ whether\ or\ not\ a\ given\ index\ falls\ within\ the\r\n\ bounds\ of\ the\ list\ (i.e.\ between\ 0\ inclusive\ and\ size()\ inclusive)\r\n
+comment2.params=obj
+comment2.target=boolean\ add(java.lang.Object)
+comment2.text=\r\n\ Inserts\ an\ element\ into\ a\ list\ at\ the\ end.\ \ Returns\ true\ if\ the\r\n\ collection\ is\ changed\ as\ a\ result\ of\ the\ operation,\ and\ false\r\n\ otherwise.\r\n\ @param\ obj\ the\ object\ to\ add\ into\ the\ collection\r\n\ @return\ true\ if\ the\ collection\ is\ altered\r\n
+comment3.params=obj
+comment3.target=int\ indexOf(java.lang.Object)
+comment3.text=\r\n\ Returns\ the\ location\ in\ the\ list\ of\ the\ first\ element\ that\ matches\r\n\ the\ parameter\ object\ <tt>obj</tt>\ according\ to\ its\ equals\ method.\r\n\ @param\ obj\ the\ object\ for\ which\ to\ search\r\n\ @return\ the\ first\ index\ (from\ 0)\ where\ the\ object\ is\ found,\ or\ -1\r\n\ if\ the\ object\ is\ not\ found\ in\ the\ list\r\n
+comment4.params=obj
+comment4.target=int\ lastIndexOf(java.lang.Object)
+comment4.text=\r\n\ Returns\ the\ location\ in\ the\ list\ of\ the\ last\ element\ that\ matches\r\n\ the\ parameter\ object\ <tt>obj</tt>\ according\ to\ its\ equals\ method.\r\n\ @param\ obj\ the\ object\ for\ which\ to\ search\r\n\ @return\ the\ last\ index\ (from\ 0)\ where\ the\ object\ is\ found,\ or\ -1\r\n\ if\ the\ object\ is\ not\ found\ in\ the\ list\r\n
+comment5.params=index
+comment5.target=java.lang.Object\ get(int)
+comment5.text=\r\n\ Returns\ the\ element\ of\ the\ list\ located\ at\ the\ specified\ index.\r\n\ @param\ index\ the\ location\ of\ the\ element\r\n\ @return\ the\ element\ at\ the\ index\r\n
+comment6.params=index\ obj
+comment6.target=void\ add(int,\ java.lang.Object)
+comment6.text=\r\n\ Inserts\ the\ element\ into\ the\ list\ at\ the\ given\ location.\r\n\ @param\ index\ the\ location\ at\ which\ to\ insert\r\n\ @param\ obj\ the\ object\ to\ add\ to\ the\ collection\r\n
+comment7.params=index
+comment7.target=java.lang.Object\ remove(int)
+comment7.text=\r\n\ Removes\ the\ element\ from\ the\ list\ at\ the\ specified\ index.\r\n\ @param\ index\ the\ index\ of\ the\ object\ to\ be\ removed\r\n\ @throws\ IndexOutOfBoundsException\ if\ index\ <\ 0\ or\ index\ >\=\ size()\r\n
+comment8.params=index\ obj
+comment8.target=java.lang.Object\ set(int,\ java.lang.Object)
+comment8.text=\r\n\ Replaces\ the\ element\ at\ the\ specified\ index\ with\ the\ parameter\r\n\ element.\ \ Returns\ the\ element\ which\ was\ replaced.\r\n\ @param\ index\ the\ index\ of\ the\ object\ to\ be\ replaced\r\n\ @param\ obj\ the\ object\ to\ use\ as\ a\ replacement\r\n\ @return\ the\ object\ originally\ at\ the\ location\r\n\ @throws\ IndexOutOfBoundsException\ if\ index\ <\ 0\ or\ index\ >\=\ size()\r\n
+comment9.params=fromIndex\ toIndex
+comment9.target=List\ subList(int,\ int)
+comment9.text=\r\n\ Create\ a\ sublist\ of\ this\ list\ between\ the\ given\ indices.\ \ The\ sublist\r\n\ is\ not\ a\ copy\ of\ the\ elements\ of\ this\ list,\ but\ rather\ a\ restricted\r\n\ view\ on\ them.\ \ Thus,\ any\ insertions,\ deletions,\ or\ replacements\r\n\ of\ elements\ in\ the\ sublist\ will\ affect\ the\ original\ list.\r\n\ \r\n\ @param\ fromIndex\ the\ starting\ index\ (inclusive)\ of\ the\ sublist\r\n\ @param\ toIndex\ the\ ending\ index\ (exclusive)\ of\ the\ sublist\r\n\ @return\ a\ restricted\ view\ on\ this\ list\r\n\ @throws\ IndexOutOfBoundsException\ if\ either\ index\ is\ <\ 0\ or\ >\ size.\r\n
+numComments=11

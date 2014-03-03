@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ABCRentals()
+comment0.text=\r\n\ Default\ constructor.\r\n
+comment1.params=item
+comment1.target=boolean\ add(Item)
+comment1.text=\r\n\ Add\ an\ item\ to\ the\ inventory.\ \ The\ parameter\ item\r\n\ should\ not\ be\ something\ already\ in\ the\ inventory.\ \ As\ a\r\n\ result\ of\ adding\ an\ item,\ the\ item\ will\ be\ assigned\ an\ ID\ starting\r\n\ with\ 1\ and\ increasing\ by\ 1\ for\ each\ item\ added.\ \ IDs\r\n\ are\ not\ reused.\ \ All\ items\ are\ kept\r\n\ in\ a\ database\ internal\ to\ the\ inventory\ so\ that\ they\ may\ be\ searched\r\n\ for\ using\ a\ query.\r\n\ @param\ item\ the\ item\ to\ add.\r\n\ @return\ true\ when\ the\ item\ is\ added,\ false\ if\ the\ item\ cannot\r\n\ be\ added\ for\ any\ reason.\r\n
+comment2.params=id
+comment2.target=boolean\ remove(java.lang.String)
+comment2.text=\r\n\ Remove\ an\ item.\ \ The\ id\ should\ be\ the\ id\ of\r\n\ an\ item\ in\ the\ inventory.\ \ The\ item\ with\ the\ \r\n\ specified\ id\ is\ located\ in\ inventory\ and\ removed.\r\n\ @param\ id\ the\ id\ of\ the\ item\ to\ remove.\r\n\ @return\ true\ if\ the\ item\ was\ found\ and\ removed,\ false\ otherwise.\r\n
+comment3.params=
+comment3.target=int\ getItemCount()
+comment3.text=\r\n\ Return\ the\ number\ of\ items\ presently\ in\ inventory.\r\n\ @return\ the\ number\ of\ items.\r\n
+comment4.params=query
+comment4.target=Item[]\ findItems(Lookup)
+comment4.text=\r\n\ Create\ and\ return\ an\ array\ of\ items\ that\ match\ the\ given\ query\r\n\ criteria.\ \ The\ query\ will\ identify\ which\ items\ match.\ \ The\ length\r\n\ of\ the\ returned\ array\ should\ be\ equal\ to\ the\ number\ of\ items\r\n\ that\ match,\ and\ each\ element\ in\ the\ array\ should\ be\ a\ matching\r\n\ item.\r\n\ @param\ query\ a\ query\ indicating\ which\ items\ to\ find.\r\n\ @return\ an\ array\ of\ matching\ items.\r\n
+comment5.params=id\ weeks
+comment5.target=Money\ rent(java.lang.String,\ int)
+comment5.text=\r\n\ Rent\ an\ item\ in\ inventory.\ The\ rental\ fee\ for\ the\ item\ is\r\n\ calculated,\ and\ the\ item\ is\ marked\ as\ rented.\r\n\ @param\ id\ the\ id\ of\ the\ item\ to\ be\ rented.\r\n\ @param\ weeks\ the\ number\ of\ weeks\ the\ item\ is\ to\ be\ rented.\r\n\ @return\ the\ rental\ fee\ if\ the\ item\ was\ available\ for\ rent,\r\n\ null\ otherwise.\r\n
+comment6.params=id
+comment6.target=boolean\ restock(java.lang.String)
+comment6.text=\r\n\ Return\ an\ item\ to\ inventory.\ The\ item\ is\ marked\ as\ not\ \r\n\ rented.\ Note\ that\ if\ the\ item\ isn't\ already\ rented,\ it\ cannot\r\n\ be\ restocked.\r\n\ @param\ id\ the\ id\ of\ the\ restocked\ item.\r\n\ @return\ true\ if\ the\ item\ was\ sucessfully\ returned\ to\ inventory,\r\n\ false\ otherwise.\r\n
+numComments=7

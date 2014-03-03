@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Polynomial()
+comment1.params=term
+comment1.target=void\ addTerm(Term)
+comment2.params=poly
+comment2.target=Polynomial\ addPolys(Polynomial)
+comment2.text=\r\n\ adds\ two\ polynomials\r\n
+comment3.params=
+comment3.target=java.util.LinkedList\ getTerms()
+comment3.text=\r\n\ returns\ terms\ LinkedList\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ override\ toString\ method\ to\ print\ polynomial\r\n
+numComments=5

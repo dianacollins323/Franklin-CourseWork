@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=class\ IntegerGenerator
+comment0.text=\nGenerates\ a\ sequence\ of\ Integer\ objects\ starting\ from\ 0.\n\n@author\ Todd\ A.\ Whittaker\n@version\ 2005-09\n\n
+comment1.params=
+comment1.target=boolean\ hasNext()
+comment1.text=\nReturns\ true\ when\ the\ generator\ has\ more\ data\ to\ return.\n@return\ true\ if\ the\ generator\ has\ more\ data\n\n
+comment2.target=totalCount
+comment3.target=startValue
+comment4.params=start\ count
+comment4.target=IntegerGenerator(int,int)
+comment4.text=\nConstruct\ a\ generator\ that\ will\ return\ <tt>count</tt>\ Integers\nstarting\ at\ <tt>start</tt>.\n@param\ start\ the\ starting\ number\ for\ the\ sequence\n@param\ count\ the\ count\ of\ elements\ to\ generate\n\n
+comment5.params=count
+comment5.target=IntegerGenerator(int)
+comment5.text=\nConstruct\ a\ generator\ that\ will\ return\ <tt>count</tt>\ elements\nstarting\ at\ zero\ (0).\n@param\ count\ the\ count\ of\ elements\ to\ generate.\n\n
+comment6.target=nextValue
+comment7.target=currentCount
+comment8.params=
+comment8.target=Integer\ next()
+comment8.text=\nReturns\ the\ next\ element\ from\ the\ generator.\n@return\ the\ next\ data\ element\n\n
+comment9.params=
+comment9.target=IntegerGenerator\ reset()
+comment9.text=\nResets\ the\ generator\ back\ to\ the\ initial\ state.\n@return\ the\ reset\ generator.\n\n
+numComments=10

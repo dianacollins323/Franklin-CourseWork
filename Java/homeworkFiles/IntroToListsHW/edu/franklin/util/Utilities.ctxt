@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=orig\ newSize
+comment0.target=java.lang.Object[]\ resizeArray(java.lang.Object[],\ int)
+comment0.text=\r\n\ Grows\ or\ shrinks\ an\ array.\ \ Depending\ on\ parameters,\ if\r\n\ newSize\ is\ greater\ than\ the\ original\ array\ length,\ then\r\n\ the\ array\ grows\ to\ newSize.\ \ If\ it\ is\ less,\ then\ it\ shrinks.\r\n\ Elements\ are\ copied\ from\ the\ original\ to\ the\ new\ array,\ leaving\r\n\ the\ original\ unchanged.\ orig\ can\ be\ <tt>null</tt>,\ in\ which\r\n\ case\ nothing\ is\ copied.\r\n\ @param\ <E>\ The\ type\ of\ elements\r\n\ @param\ orig\ the\ original\ array\r\n\ @param\ newSize\ the\ size\ of\ the\ new\ array\r\n\ @return\ a\ new\ array\ with\ data\ copied.\r\n
+comment1.params=orig\ size
+comment1.target=java.lang.Object[]\ newArray(java.lang.Object[],\ int)
+comment1.text=\r\n\ Creates\ a\ new\ array\ of\ the\ specified\ size\ based\ on\ the\ type\r\n\ of\ the\ array\ given\ as\ a\ parameter.\ \ No\ data\ is\ copied.\r\n\ @param\ <E>\ The\ type\ of\ elements\r\n\ @param\ orig\ the\ original\ array\r\n\ @param\ size\ the\ size\ of\ the\ new\ array\r\n\ @return\ a\ new\ array\ of\ the\ type\ and\ size\ specified.\r\n
+comment2.params=obj1\ obj2
+comment2.target=boolean\ nullSafeEquals(java.lang.Object,\ java.lang.Object)
+comment2.text=\r\n\ Compares\ two\ objects\ for\ equality\ in\ a\ way\ that\ should\ never\r\n\ throw\ a\ NullPointerException.\r\n\ @param\ obj1\ the\ first\ object\ for\ comparison\r\n\ @param\ obj2\ the\ second\ object\ for\ comparison\r\n\ @return\ true\ of\ obj1\ and\ obj2\ are\ equal\ (even\ if\ null)\r\n
+numComments=3

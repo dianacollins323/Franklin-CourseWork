@@ -1,0 +1,72 @@
+body {
+    font-family: "Times New Roman", Serif;
+    margin: 0;
+    background-color: #d3d3d7;
+}
+h3 {
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+#doctitle {
+    padding:0;
+    margin:0;
+    color: navy;
+}
+#subtitle {
+    font-weight: lighter;
+    letter-spacing: 1;
+    padding:0 0 15px 0;
+    margin:0;
+}
+#main_container {
+    width: 650px;
+    margin: 0 auto;
+    padding: 15px;
+    border-right: 2px solid #e88504;
+    border-left: 2px solid #e88504;
+    background-color: #fff;
+}
+.emadd {
+    font-weight: lighter;
+    letter-spacing: 1;
+    padding:0 0 15px 0;
+    margin:0;
+}
+.sections {
+    margin: 10px;
+    border-bottom: 2px solid navy;
+    width: 650px;
+    margin: 0 auto;
+}
+.left {
+    width: 150px;
+    font-weight:bold;
+    font-size: 75%;
+    padding: 0;
+    margin 0;
+    float:left;
+}
+.secHeader {
+    color: navy;
+    width: 400px;
+}
+.firstLine {
+    font-weight: bold;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+.subLine {
+    padding: 0 0 0 25px;
+    margin: 0;
+}
+.hidden {
+    display: none;
+}
+.open {
+    display: block;
+    padding-bottom: 20px;
+}
+.buttons {
+    float: right;
+    color: #e88504;
+}

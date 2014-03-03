@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=interface\ Iterable
+comment0.text=\nAn\ interface\ that\ allows\ the\ use\ of\ the\ "foreach"\ statement.\n\n@author\ Todd\ A.\ Whittaker\n@version\ 2005-09\n@param\ <E>\ type\ iterated\ over\n\n
+comment1.params=
+comment1.target=Iterator<E>\ iterator()
+comment1.text=\nGenerate\ an\ iterator\ object.\n@return\ an\ iterator\ object.\n\n
+numComments=2

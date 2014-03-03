@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ size()
+comment0.text=\r\n\ Returns\ the\ number\ of\ elements\ in\ the\ collection.\r\n\ @return\ the\ number\ of\ elements\ in\ the\ collection.\r\n
+comment1.params=obj
+comment1.target=boolean\ add(java.lang.Object)
+comment1.text=\r\n\ Inserts\ an\ element\ into\ a\ collection.\ \ Returns\ true\ if\ the\r\n\ collection\ is\ changed\ as\ a\ result\ of\ the\ operation,\ and\ false\r\n\ otherwise.\r\n\ @param\ obj\ the\ object\ to\ add\ into\ the\ collection\r\n\ @return\ true\ if\ the\ collection\ is\ altered\r\n
+comment2.params=
+comment2.target=Iterator\ iterator()
+comment2.text=\r\n\ Generate\ an\ iterator\ object.\r\n\ @return\ an\ iterator\ object.\r\n
+numComments=3

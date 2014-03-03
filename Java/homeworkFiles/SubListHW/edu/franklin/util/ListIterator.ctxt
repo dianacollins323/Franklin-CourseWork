@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=interface\ ListIterator
+comment0.text=\nAn\ object\ that\ abstracts\ the\ idea\ of\ iterator\ (both\ forward\ and\nbackward)\ over\ a\ list\ of\ objects.\ \ It\ also\ allows\ the\ replacement\nof\ elements\ on\ the\ fly,\ and\ the\ extraction\ of\ the\ iterator\ position\nin\ terms\ of\ an\ index\ value\ between\ elements\ (<tt>0</tt>\ being\n<em>before</em>the\ 0th\ element,\ and\ <tt>n+1</tt>\ being\ <em>after</em>\nthe\ nth\ element).\n@param\ <E>\ the\ type\ of\ data\ returned\n\n@author\ Todd\ A.\ Whittaker\n@version\ 2005-09\n\n
+comment1.params=
+comment1.target=int\ nextIndex()
+comment1.text=\nReturns\ the\ index\ of\ the\ element\ that\ would\ be\ returned\ should\na\ subsequent\ call\ to\ <tt>next</tt>\ be\ made.\n@return\ the\ index\ of\ the\ next\ element\n\n
+comment2.params=
+comment2.target=boolean\ hasPrevious()
+comment2.text=\nReturns\ true\ when\ the\ iterator\ has\ more\ data\ to\ return\ in\ the\nreverse\ direction.\n@return\ true\ if\ the\ iterator\ has\ more\ data\n\n
+comment3.params=
+comment3.target=E\ previous()
+comment3.text=\nReturns\ the\ element\ from\ the\ iteration\ when\ traversing\ in\ the\nreverse\ direction.\n@return\ the\ previous\ data\ element\n\n
+comment4.params=
+comment4.target=int\ previousIndex()
+comment4.text=\nReturns\ the\ index\ of\ the\ element\ that\ would\ be\ returned\ should\na\ subsequent\ call\ to\ <tt>previous</tt>\ be\ made.\n@return\ the\ index\ of\ the\ previous\ element\n\n
+comment5.params=obj
+comment5.target=void\ add(E)
+comment5.text=\nInserts\ the\ specified\ element\ into\ the\ list\ at\ the\ present\ iterator\nposition.\ \ The\ insertion\ point\ is\ before\ the\ element\ that\ would\ be\nreturned\ by\ a\ call\ to\ <tt>next</tt>\ and\ after\ the\ element\ that\ would\nbe\ returned\ by\ a\ call\ to\ <tt>previous</tt>.\ \ After\ adding\ the\ element,\na\ call\ to\ <tt>previous</tt>\ will\ return\ the\ newly\ inserted\ element,\nbut\ a\ call\ to\ <tt>next</tt>\ will\ return\ the\ element\ immediately\nafter\ the\ one\ inserted.\n@param\ obj\ the\ element\ to\ insert\n\n
+comment6.params=obj
+comment6.target=void\ set(E)
+comment6.text=\nReplaces\ the\ last\ element\ returned\ by\ either\ <tt>next</tt>\ or\n<tt>previous</tt>.\ \ Cannot\ be\ called\ immediately\ after\ <tt>add</tt>\nor\ <tt>remove</tt>.\n@param\ obj\ the\ object\ with\ which\ to\ replace\ the\ one\ returned\nearlier.\n\n
+numComments=7

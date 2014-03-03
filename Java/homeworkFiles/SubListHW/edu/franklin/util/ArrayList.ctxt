@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArrayList()
+comment0.text=\r\n\ Constructs\ an\ empty\ list\ with\ an\ initial\ capacity\ of\ 10.\r\n
+comment1.params=capacity
+comment1.target=ArrayList(int)
+comment1.text=\r\n\ Constructs\ an\ empty\ list\ with\ the\ specified\ initial\r\n\ capacity.\r\n\ @param\ capacity\ the\ number\ of\ array\ elements\ to\ allocate\ initially\r\n\ @throws\ IllegalArgumentException\ if\ the\ specified\ initial\r\n\ capacity\ is\ negative\r\n
+comment2.params=
+comment2.target=int\ size()
+comment2.text=\r\n\ Returns\ the\ number\ of\ elements\ in\ the\ list.\r\n\ @return\ the\ number\ of\ elements\ in\ the\ list.\r\n
+comment3.params=
+comment3.target=void\ clear()
+comment3.text=\r\n\ Removes\ all\ elements\ from\ the\ collection.\ \ The\ collection\ will\r\n\ be\ empty\ after\ calling\ this\ method.\ \ A\ faster\ implementation\ than\r\n\ can\ be\ done\ in\ the\ AbstractCollection\ class.\r\n
+comment4.params=position
+comment4.target=ListIterator\ listIterator(int)
+comment4.text=\r\n\ Returns\ a\ ListIterator\ over\ the\ elements\ in\ this\ list.\ \ The\ starting\r\n\ position\ for\ the\ list\ iterator\ will\ be\ the\ 0th\ element.\r\n\ @return\ a\ ListIterator\ over\ the\ elements\ in\ this\ list.\r\n
+comment5.params=requiredCapacity
+comment5.target=void\ ensureCapacity(int)
+comment5.text=\r\n\ Ensures\ that\ the\ backing\ array\ has\ enough\ capacity\ to\ contain\ at\r\n\ least\ <tt>requiredCapacity</tt>\ items.\ \ If\ not,\ then\ it\ will\r\n\ expand\ the\ capacity\ by\ the\ larger\ of\ either\ the\ required\ capacity\r\n\ or\ 50%\ more\ +\ 1.\r\n\ @param\ requiredCapacity\ the\ desired\ capacity\r\n
+comment6.params=
+comment6.target=void\ trimToSize()
+comment6.text=\r\n\ Trims\ the\ excess\ capacity\ off\ of\ the\ backing\ array,\ reducing\ it\r\n\ to\ size()\ in\ length.\r\n
+numComments=7

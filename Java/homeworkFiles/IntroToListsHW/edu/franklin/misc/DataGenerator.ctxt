@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=interface\ DataGenerator
+comment0.text=\nProduce\ some\ test\ data\ that\ can\ be\ put\ in\ collections.\n@param\ <E>\ the\ type\ of\ data\ generated\n\n@author\ Todd\ A.\ Whittaker\n@version\ 2005-09\n\n
+comment1.params=
+comment1.target=boolean\ hasNext()
+comment1.text=\nReturns\ true\ when\ the\ generator\ has\ more\ data\ to\ return.\n@return\ true\ if\ the\ generator\ has\ more\ data\n\n
+comment2.params=
+comment2.target=E\ next()
+comment2.text=\nReturns\ the\ next\ element\ from\ the\ generator.\n@return\ the\ next\ data\ element\n\n
+comment3.params=
+comment3.target=DataGenerator<E>\ reset()
+comment3.text=\nResets\ the\ generator\ back\ to\ the\ initial\ state.\n@return\ the\ reset\ generator.\n\n
+numComments=4

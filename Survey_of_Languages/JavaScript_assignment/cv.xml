@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="vitae.xsl"?>
+<!DOCTYPE acdemicvitae SYSTEM "vitae.dtd">
+<ACADEMICVITAE>
+    <DOCINFO>
+        <DOCTITLE>Kenny Gruchalla</DOCTITLE>
+        <TYPEOFDOC>Curriculum Vitae</TYPEOFDOC>
+    </DOCINFO>
+    
+    <ACADEMICDEGREES>
+        <DEGREE YEAR="2009">
+            <TYPE>PhD</TYPE>
+            <MAJOR>Computer Science</MAJOR>
+            <INSTITUTE ADDRESS="Boulder, CO">
+                <NAME>University of Colorado at Boulder</NAME>
+            </INSTITUTE>
+        </DEGREE>
+        <DEGREE YEAR="2003">
+            <TYPE>MS</TYPE>
+            <MAJOR>Computer Science</MAJOR>
+            <INSTITUTE ADDRESS="Boulder, CO">
+                <NAME>University of Colorado at Boulder</NAME>
+            </INSTITUTE>
+        </DEGREE>
+        <DEGREE YEAR="1995">
+            <TYPE>BS</TYPE>
+            <MAJOR>Computer Science</MAJOR>
+            <MINOR>Spanish</MINOR>
+            <INSTITUTE ADDRESS="Socoro, NM">
+                <NAME>New Mexico Institute of Mining and Technology</NAME>
+            </INSTITUTE>
+        </DEGREE>
+    </ACADEMICDEGREES>
+    
+    <EMPLOYMENTHISTORY>
+        <EMPLOYMENT>
+            <EMPLOYER ADDRESS="Golden, CO">
+                <NAME>National Renewable Energy Laboratory (NREL)</NAME>
+            </EMPLOYER>
+            <JOB BEGINMONTH="Jun" BEGINYEAR="2009" ENDDATE="present">
+                <TITLE>Senior Scientist</TITLE>
+                <RESPONSIBILITIES>
+                    I lead NREL’s scientific data visualization efforts in support of 
+                    renewable energy research, collaborating with NREL domain scientists 
+                    in the visualization of complex, large, multivariate data.
+                </RESPONSIBILITIES>
+            </JOB>
+        </EMPLOYMENT>
+        <EMPLOYMENT>
+            <EMPLOYER ADDRESS="Boulder, CO">
+                <NAME>University of Colorado at Boulder</NAME>
+            </EMPLOYER>
+            <JOB BEGINMONTH="May" BEGINYEAR="2011" ENDDATE="present">
+                <TITLE>Assistant Professor Adjunct for the Dept. of Computer Science</TITLE>
+                <RESPONSIBILITIES>
+                    I conduct research and oversee student research in scientific data 
+                    visualization.
+                </RESPONSIBILITIES>
+            </JOB>
+            <JOB BEGINMONTH="Apr" BEGINYEAR="2001" ENDDATE="May 2006">
+                <TITLE>Professional Research Assistant for CADSWES</TITLE>
+                <RESPONSIBILITIES>
+                    I worked in an interdisciplinary research center on the design and the 
+                    development of a commercial graphically-based decision support software 
+                    system implementing object-oriented simulation, rule-based simulation, 
+                    and linear optimization to model watershed physical processes, water 
+                    ownership, and policy.
+                </RESPONSIBILITIES>
+            </JOB>
+            <JOB BEGINMONTH="Jan" BEGINYEAR="2004" ENDDATE="Aug 2004">
+                <TITLE>
+                    Professional Research Assistant for the Dept. of Molecular, Cellular, 
+                    and Developmental Biology
+                </TITLE>
+                <RESPONSIBILITIES>
+                    I collaborated on the design and development of a pilot study to 
+                    investigate the added value of using immersive visualization as a 
+                    molecular research tool.
+                </RESPONSIBILITIES>
+            </JOB>
+            <JOB BEGINMONTH="Jul" BEGINYEAR="2002" ENDDATE="Aug 2003">
+                <TITLE>Graduate Research Assistant for BP Center for Visualization</TITLE>
+                <RESPONSIBILITIES>
+                    I designed and developed an interactive 3D immersive application 
+                    capable of integrating geological, geophysical, reservoir and well 
+                    data with drilling and platform planning in an immersive virtual 
+                    environment.
+                </RESPONSIBILITIES>
+            </JOB>
+        </EMPLOYMENT>
+        <EMPLOYMENT>
+            <EMPLOYER ADDRESS="Denver, CO">
+                <NAME>Red Canyon Engineering</NAME>
+            </EMPLOYER>
+            <JOB BEGINMONTH="Jun" BEGINYEAR="2000" ENDDATE="Jan 2011">
+                <TITLE>
+                    Software Engineering Consultant/Research Scientist/Principal Software Engineer
+                </TITLE>
+                <RESPONSIBILITIES>
+                    I authored SBIR and other new business proposals, developing and 
+                    directing over $0.5M in grants and contracts. I also conducted software 
+                    architecture and algorithm reviews for the Mars Odyssey and Genesis 
+                    spacecraft programs.
+                </RESPONSIBILITIES>
+            </JOB>
+        </EMPLOYMENT>
+        <EMPLOYMENT>
+            <EMPLOYER ADDRESS="Boulder, CO">
+                <NAME>National Center for Atmospheric Research (NCAR)</NAME>
+            </EMPLOYER>
+            <JOB BEGINMONTH="May" BEGINYEAR="2006" ENDDATE="Oct 2008">
+                <TITLE>Visitor Appointment</TITLE>
+                <RESPONSIBILITIES>
+                    I collaborated on the design and development of VAPOR, a state-of-the-art 
+                    volume visualization suite designed to interactively explore large-scale 
+                    time-varying multivariate computational fluid dynamics (CFD) data.
+                </RESPONSIBILITIES>
+            </JOB>
+        </EMPLOYMENT>
+        <EMPLOYMENT>
+            <EMPLOYER ADDRESS="Aurora, CO">
+                <NAME>Raytheon</NAME>
+            </EMPLOYER>
+            <JOB BEGINMONTH="Jul" BEGINYEAR="2000" ENDDATE="Feb 2001">
+                <TITLE>Senior Analyst/Medical Officer for US Antarctic Program, Raytheon Polar Services.</TITLE>
+                <RESPONSIBILITIES>
+                    I managed the data acquisition and visualization laboratory aboard the 
+                    National Science Foundation’s Antarctic research vessel, the Nathaniel 
+                    B. Palmer, providing scientific support to NSF grantees. I also sailed 
+                    as Medical Officer (EMT) aboard the Palmer.
+                </RESPONSIBILITIES>
+            </JOB>
+            <JOB BEGINMONTH="Oct" BEGINYEAR="1997" ENDDATE="Jun 2000">
+                <TITLE>Technical Software Lead for Space and Science Systems, Raytheon Systems Corporation.</TITLE>
+                <RESPONSIBILITIES>
+                    I designed and developed animated meteorological visualization tools 
+                    for the Cape Canaveral and Vandenberg space lift ranges that included 
+                    the development of both real-time and analysis visualization algorithms 
+                    and image processing software for radar and satellite instrumentation. 
+                    As the technical lead I served as technical mentor, providing technical 
+                    guidance across projects and organizations.
+                </RESPONSIBILITIES>
+            </JOB>
+            <JOB BEGINMONTH="Jul" BEGINYEAR="1995" ENDDATE="Oct 1997">
+                <TITLE>Software Developer for Satellite Mission Management Organization, Hughes Space Systems</TITLE>
+                <RESPONSIBILITIES>
+                    I designed and developed a distributed satellite mission planning and 
+                    scheduling software system that included interactive 2D computer graphic 
+                    models of satellite and ground station resource allocation and 3D 
+                    modeling tools used for satellite payload constraint analysis. I also 
+                    helped design, develop, and maintain object-oriented class libraries 
+                    designed for reuse and rapid development of satellite space and ground 
+                    applications.
+                </RESPONSIBILITIES>
+            </JOB>
+        </EMPLOYMENT>
+        <EMPLOYMENT>
+            <EMPLOYER ADDRESS="Upton, NY">
+                <NAME>Brookhaven National Laboratory</NAME>
+            </EMPLOYER>
+            <JOB BEGINMONTH="Jan" BEGINYEAR="1994" ENDDATE="May 1994">
+                <TITLE>Science and Engineering Research Intern for the Advanced Technology Division</TITLE>
+                <RESPONSIBILITIES>
+                    I designed and developed interactive 2D visualizations of subsurface 
+                    radioactive waste plumes created by a physically-based model of the 
+                    breach, leach, and transport of radioactive waste material.
+                </RESPONSIBILITIES>
+            </JOB>
+        </EMPLOYMENT>
+    </EMPLOYMENTHISTORY>
+    
+    <PUBLICATIONRECORD>
+        <PUBLICATION PAGES="3402 - 3424" Volume="33">
+            <AUTHORS>
+                <AUTHOR>M. Lunacek</AUTHOR>
+                <AUTHOR>A. Nag</AUTHOR>
+                <AUTHOR>D. Alber</AUTHOR>
+                <AUTHOR>K. Gruchalla</AUTHOR>
+                <AUTHOR>C.H. Chang</AUTHOR>
+                <AUTHOR>P.A. Graf</AUTHOR>
+            </AUTHORS>
+            <TITLE>
+                Simulation characterization and optimization of metabolic models with 
+                the high-performance systems biology toolkit
+            </TITLE>
+            <PUBLISHER>SIAM Journal on Scientific Computing</PUBLISHER>
+        </PUBLICATION>
+        <PUBLICATION YEAR="2011" PAGES="619 - 628" VOLUME="6938">
+            <AUTHORS>
+                <AUTHOR>K. Gruchalla</AUTHOR>
+                <AUTHOR>M. Rast</AUTHOR>
+                <AUTHOR>E. Bradley</AUTHOR>
+                <AUTHOR>P. Mininni</AUTHOR>
+            </AUTHORS>
+            <TITLE>
+                Segmentation and visualization of multivariate features using feature-local distributions
+            </TITLE>
+            <PUBLISHER>Lecture Notes in Computer Science</PUBLISHER>
+        </PUBLICATION>
+        <PUBLICATION YEAR="2011">
+            <AUTHORS>
+                <AUTHOR>M.A. Sprague</AUTHOR>
+                <AUTHOR>P.J. Moriarty</AUTHOR>
+                <AUTHOR>M.J. Churchfield</AUTHOR>
+                <AUTHOR>K. Gruchalla</AUTHOR>
+                <AUTHOR>S. Lee</AUTHOR>
+                <AUTHOR>J.K. Lundquist</AUTHOR>
+                <AUTHOR>J. Michalakes</AUTHOR>
+                <AUTHOR>A. Purkayastha</AUTHOR>
+            </AUTHORS>
+            <TITLE>
+                Computational modeling of wind-plant aerodynamics
+            </TITLE>
+            <PUBLISHER>Proceedings of SciDAC</PUBLISHER>
+        </PUBLICATION>
+        <PUBLICATION YEAR="2010" PAGES="42 - 53" VOLUME="6065" NUMBER="IX">
+            <AUTHORS>
+                <AUTHOR>M. Guy</AUTHOR>
+                <AUTHOR>P. Earle</AUTHOR>
+                <AUTHOR>C. Ostrum</AUTHOR>
+                <AUTHOR>K. Gruchalla</AUTHOR>
+                <AUTHOR>S. Horvath</AUTHOR>
+            </AUTHORS>
+            <TITLE>
+                Integration and dissemination of citizen reported and seismically derived 
+                earthquake information via social network technologies
+            </TITLE>
+            <PUBLISHER>Advances in Intelligent Data Analysis</PUBLISHER>
+        </PUBLICATION>
+    </PUBLICATIONRECORD>
+    
+    <FUNDINGRECORD>
+        <PROJECT BEGINMONTH="1" BEGINYEAR="2013">
+            <NAME>Integrated Energy Management and Analysis for the ESIF’s Computational Systems</NAME>
+            <SPONSOR AMOUNT="$588K">DOE/NREL LDRD</SPONSOR>
+            <ROLE>Co-PI</ROLE>
+        </PROJECT>
+        <PROJECT BEGINMONTH="9" BEGINYEAR="2012">
+            <NAME>Novel Visualization and Analysis for Extreme-Scale Wind Turbine Array Simulations</NAME>
+            <SPONSOR AMOUNT="$599K">DOE/NREL LDRD</SPONSOR>
+            <ROLE>PI</ROLE>
+        </PROJECT>
+        <PROJECT BEGINMONTH="9" BEGINYEAR="2010">
+            <NAME>Wind Turbine Array Fluid Dynamic and Aero-Elastic Simulations</NAME>
+            <SPONSOR AMOUNT="$971K">DOE/NREL LDRD</SPONSOR>
+            <ROLE>Co-PI</ROLE>
+        </PROJECT>
+        <PROJECT BEGINBEGINMONTH="1" BEGINYEAR="2009">
+            <NAME>Lunar Base Simulator</NAME>
+            <SPONSOR AMOUNT="$202K">NASA Glenn Research Center</SPONSOR>
+            <ROLE>PI</ROLE>
+        </PROJECT>
+        <PROJECT BEGINMONTH="11" BEGINYEAR="2005">
+            <NAME>MarsFlight – An Immersive and Interactive Mars Airplane Simulator Phase II</NAME>
+            <SPONSOR AMOUNT="$126K">NASA Glenn Research Center</SPONSOR>
+            <ROLE>Co-PI</ROLE>
+        </PROJECT>
+        <PROJECT BEGINMONTH="3" BEGINYEAR="2005">
+            <NAME>MarsFlight – An Immersive and Interactive Mars Airplane Simulator Phase I</NAME>
+            <SPONSOR AMOUNT="$32K">NASA Glenn Research Center</SPONSOR>
+            <ROLE>Co-PI</ROLE>
+        </PROJECT>
+    </FUNDINGRECORD>
+</ACADEMICVITAE>

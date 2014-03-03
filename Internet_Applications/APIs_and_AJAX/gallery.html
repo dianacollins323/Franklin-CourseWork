@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+    Description: This document displays the gallery page for the Girl Scout Troop 700
+    Author: Diana Collins
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Girl Scout Troop 700</title>
+        <link rel="shortcut icon" href="images/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="scouts.css" />
+        <script src="../APIs_and_AJAX/lib/jquery.js"></script>
+        <script src="jquery.simplrgallery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#flickr').simplrgallery({photoSet:'72157635330306079'});
+            });
+        </script>
+    </head>
+    <body>
+        <!-- main containter -->
+        <div>
+            <!-- main page header -->
+            <header>
+        	    <img src="images/logo.png" alt="Town Hall Logo">
+                <hgroup>
+                    <h1 id="header">Girl Scout Troop 700</h1>
+        	        <h2 class="sub_headers"><i>Tomorrow's leaders making a difference today!</i></h2>
+                </hgroup>
+            </header>
+            <!-- main navigation -->
+            <nav>
+                <ul id="nav">
+                    <li class="nav"><a href="../APIs_and_AJAX/scouts.html">Home</a></li>
+                    <li class="nav"><a href="../APIs_and_AJAX/gallery.html">Gallery</a></li>
+                    <li class="nav"><a href="../APIs_and_AJAX/map.html">Map</a></li>
+                </ul>
+            </nav>
+            <!-- main content section -->
+            <div>
+                <div id="flickr"></div>
+            </div>
+            <!-- page footer -->
+            <footer>
+                <p id="footer_text">This page is maintained by the troop leader: 
+                    <a href="mailto:dianacollins323@gmail.com?Subject=Girl%20Scouts" target="_top">Diana Collins</a>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

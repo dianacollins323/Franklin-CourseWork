@@ -1,0 +1,36 @@
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+    
+    <script type="text/javascript">
+        function validate() {
+            var errormessage = "";
+            var em = document.myForm.email.value;
+         
+           if(document.myForm.fname.value == "") {
+                errormessage += "\n Please provide your first name!";
+           }
+
+           if(document.myForm.lname.value == "") {
+                errormessage += "\n Please provide your last name!";
+           }
+
+           if(!validateEmail(em)) {
+                errormessage += "\n Please provide a valid email address!";
+           }
+
+           if(document.myForm.comments.value.trim() == "") {
+               errormessage += "\n Please enter your comments!";
+           }
+
+            if(errormessage != ""){
+                alert(errormessage);
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+        function validateEmail(email) { 
+            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(email);
+        } 
+    </script>

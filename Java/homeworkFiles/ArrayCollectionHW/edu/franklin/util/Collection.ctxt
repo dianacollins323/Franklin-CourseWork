@@ -1,0 +1,46 @@
+#BlueJ class context
+comment0.target=interface\ Collection
+comment0.text=\nThe\ base\ interface\ for\ the\ collections\ hierarchy.\ \ A\ collection\ is\ a\ group\nof\ objects\ kept\ in\ a\ container.\ \ Typical\ operations\ are\ to\ add,\ remove,\nand\ iterate\ over\ the\ elements.\n@param\ <E>\ the\ type\ of\ data\ to\ hold\ in\ the\ collection\n\n@author\ Todd\ A.\ Whittaker\n@version\ 2005-09\n\n
+comment1.params=obj
+comment1.target=boolean\ equals(Object)
+comment1.text=\nCompares\ the\ parameter\ object\ <tt>obj</tt>\ against\ this\ collection\nfor\ equality.\ \ Care\ should\ be\ taken\ to\ ensure\ symmetry,\ transitivity,\nand\ reflexivity\ properties\ of\ equality.\ \ That\ is\:\ if\n<tt>a.equals(b)</tt>\ is\ true\ then\ <tt>b.equals(a)</tt>\ should\ also\ be\ntrue\ (symmetry);\ if\ <tt>a.equals(b)</tt>\ and\ <tt>b.equals(c)</tt>\ then\n<tt>a.equals(c)</tt>\ should\ be\ true\ (transitivity);\ and\ also\n<tt>a.equals(a)</tt>\ should\ also\ be\ true.\n\nThe\ contract\ between\ <tt>equals</tt>\ and\ <tt>hashCode</tt>\ should\nalso\ be\ kept.\ \ That\ is,\ if\ <tt>a.equals(b)</tt>\ is\ true\ then\n<tt>a.hashCode()\ \=\=\ b.hashCode()</tt>\ should\ also\ be\ true.\ \ The\nreverse\ is\ not\ true\ (equal\ hash\ codes\ do\ not\ imply\ object\ equality).\n\nA\ typical\ way\ to\ implement\ <tt>equals</tt>\ would\ be\ do\ do\ a\ value\ncomparison\ of\ the\ contents\ of\ the\ collection.\n\n@param\ obj\ the\ object\ against\ which\ to\ compare\ this\ collection.\n@return\ true\ if\ the\ object\ is\ equal\ to\ this\ collection.\n\n
+comment10.params=
+comment10.target=int\ hashCode()
+comment10.text=\nReturns\ the\ hash\ code\ value\ for\ this\ collection.\ \ A\ typical\nimplementation\ would\ be\ to\ somehow\ aggregate\ the\ hash\ codes\ of\ the\nindividual\ elements\ of\ the\ collection.\ \ Be\ sure\ that\ hashCode\ is\nalso\ overridden\ if\ equals\ is\ overridden.\n@return\ the\ hash\ code\ of\ the\ collection.\n\n
+comment11.params=coll
+comment11.target=boolean\ addAll(Collection<?\ extends\ E>)
+comment11.text=\nInserts\ all\ the\ elements\ of\ <tt>coll</tt>\ into\ this\ collection.\ \ If\nboth\ this\ collection\ and\ the\ parameter\ are\ the\ same\ collection,\ then\nthe\ operational\ behavior\ is\ undefined\ (i.e.\ bad\ things\ can\ happen).\n@param\ coll\ the\ collection\ from\ which\ to\ draw\ elements\ for\ addition.\n@return\ true\ when\ this\ collection\ is\ modified\ as\ a\ result.\n\n
+comment12.params=coll
+comment12.target=boolean\ retainAll(Collection<?>)
+comment12.text=\nRetains\ all\ the\ elements\ in\ this\ collection\ that\ match\ those\ in\nthe\ parameter\ collection\ <tt>coll</tt>.\ \ That\ is,\ it\ will\ remove\nall\ elements\ in\ this\ collection\ that\ have\ no\ match\ in\ <tt>coll</tt>.\n@parma\ coll\ the\ collection\ of\ elements\ to\ be\ matched\ against\n@return\ true\ if\ this\ collection\ is\ altered\ as\ a\ result\ of\ the\ call.\n\n
+comment13.params=obj
+comment13.target=boolean\ add(E)
+comment13.text=\nInserts\ an\ element\ into\ a\ collection.\ \ Returns\ true\ if\ the\ collection\nis\ changed\ as\ a\ result\ of\ the\ operation,\ and\ false\ otherwise.\n@param\ obj\ the\ object\ to\ add\ to\ the\ collection\n@return\ true\ if\ the\ collection\ is\ altered\n\n
+comment14.params=
+comment14.target=int\ size()
+comment14.text=\nReturns\ the\ number\ of\ elements\ in\ the\ collection.\n@return\ the\ number\ of\ elements\ in\ the\ collection.\n\n
+comment2.params=obj
+comment2.target=boolean\ contains(Object)
+comment2.text=\nSearches\ the\ collection\ to\ determine\ if\ the\ collection\ contains\nan\ element\ that\ matches\ the\ specified\ object.\ \ If\ the\ specified\nobject\ is\ null,\ it\ will\ look\ for\ a\ null\ in\ the\ collection.\ \ Otherwise\nit\ will\ use\ the\ <tt>equals</tt>\ method\ of\ the\ given\ object\ to\ \ndetermine\ equality.\ \ That\ is,\ <tt>o\ \=\=\ null\ ?\ element\ \=\=\ null\ \:\ \no.equals(element)</tt>.\n@param\ obj\ the\ object\ to\ match\n@return\ true\ if\ the\ collection\ contains\ a\ matching\ element\n\n
+comment3.params=
+comment3.target=Object[]\ toArray()
+comment3.text=\nCreates\ and\ returns\ an\ array\ containing\ the\ data\ from\ this\ collection.\nIf\ this\ collection\ preserves\ order,\ then\ the\ order\ in\ the\ array\nwill\ be\ the\ same\ as\ the\ order\ of\ the\ collection.\ \ The\ array\ returned\nwill\ always\ be\ safe\ to\ be\ modified\ (i.e.\ it\ will\ be\ different\ from\nthe\ underlying\ collection's\ array\ if\ the\ collection\ is\ array-backed).\n@return\ an\ array\ containing\ references\ to\ the\ collections\ elements.\n\n
+comment4.params=a
+comment4.target=<E>\ E[]\ toArray(E[])
+comment4.text=\nReturns\ an\ array\ containing\ the\ data\ from\ this\ collection.\ \ If\ the\nparameter\ array\ is\ large\ enough\ to\ hold\ the\ collection,\ then\ it\ is\nfilled\ and\ returned.\ \ Otherwise,\ a\ new\ array\ of\ the\ same\ type\ is\nallocated,\ filled,\ and\ returned.\ \ If\ this\ collection\ preserves\ order\nthen\ ten\ the\ order\ in\ the\ array\ will\ be\ the\ same\ as\ the\ order\ of\ the\ncollection.\ The\ array\ returned\ will\ always\ be\ safe\ to\ be\ modified\n(i.e.\ it\ will\ be\ different\ from\ the\ underlying\ collection's\ array\nif\ the\ collection\ is\ array-backed).\n@return\ an\ array\ containing\ references\ to\ the\ collections\ elements.\n\n
+comment5.params=
+comment5.target=boolean\ isEmpty()
+comment5.text=\nReturns\ true\ if\ the\ collection\ contains\ no\ elements.\n@return\ true\ if\ the\ collection\ is\ empty.\n\n
+comment6.params=obj
+comment6.target=boolean\ remove(Object)
+comment6.text=\nRemoves\ the\ first\ element\ of\ this\ collection\ matching\ the\ parameter\nobject\ <tt>obj</tt>.\ \ If\ the\ colleciton\ is\ altered\ as\ a\ result\ of\nthe\ operation,\ <tt>remove</tt>\ returns\ <tt>true</tt>.\n@param\ obj\ the\ object\ to\ match\n@return\ true\ if\ the\ collection\ is\ altered,\ false\ otherwise.\n\n
+comment7.params=
+comment7.target=void\ clear()
+comment7.text=\nRemoves\ all\ elements\ from\ the\ collection.\ \ The\ collection\ will\nbe\ empty\ after\ calling\ this\ method.\n\n
+comment8.params=coll
+comment8.target=boolean\ removeAll(Collection<?>)
+comment8.text=\nRemoves\ all\ elements\ in\ this\ collection\ that\ match\ those\ in\ the\nparameter\ collection\ <tt>coll</tt>.\ \ When\ the\ operation\ completes,\nthe\ two\ collections\ will\ be\ disjoint.\n@param\ coll\ the\ collection\ of\ elements\ to\ be\ removed\ from\ this\ one.\n@return\ true\ if\ this\ collection\ is\ altered\ as\ a\ result\ of\ the\ call.\n\n
+comment9.params=coll
+comment9.target=boolean\ containsAll(Collection<?\ extends\ E>)
+comment9.text=\nSearches\ this\ collection\ to\ determine\ if\ every\ element\ of\ <tt>coll</tt>\nexists\ in\ this\ collection.\ \ Comparison\ is\ based\ on\ the\ same\ algorithm\nas\ for\ <tt>contains</tt>.\n@param\ coll\ the\ collection\ to\ be\ checked\ for\ containment\ in\ this\ on\n@return\ true\ if\ all\ elements\ of\ <tt>coll</tt>\ also\ exist\ in\ this.\n\n
+numComments=15

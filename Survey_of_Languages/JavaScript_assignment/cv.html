@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Curriculum Vitae</title>
+        <link rel="stylesheet" type="text/css" href="cv.css" />
+        <!--<script type="text/javascript" src="cv.js"></script>-->
+    </head>
+    <body onload="start();">
+        <div id="main_container">
+        
+            <script type="text/javascript" src="cv.js"></script>
+            
+            <div class="sections" id="doctitle"></div>
+            
+            <div class="sections">
+                <input type="button" id="degreeBtn" class="buttons" value="Show Detail" onClick="displayDegrees();" />
+                <h2 class="secHeader">Academic Degrees</h2>
+                <div id="degrees" class="hidden">
+                
+                </div>
+            </div>
+            
+            <div class="sections">
+                <input type="button" id="employmentBtn" class="buttons" value="Show Detail" onClick="displayEmployment();" />
+                <h2 class="secHeader">Employment History</h2>
+                <div id="employment" class="hidden">
+                
+                </div>
+            </div>
+            
+            <div class="sections">
+                <input type="button" id="publicationsBtn" class="buttons" value="Show Detail" onClick="displayPublications();" />
+                <h2 class="secHeader">Publications</h2>
+                <div id="publications" class="hidden">
+                
+                </div>
+            </div>
+            
+            <div class="sections">
+                <input type="button" id="fundingBtn" class="buttons" value="Show Detail" onClick="displayFundingRecord();" />
+                <h2 class="secHeader">Funded Research</h2>
+                <div id="funding" class="hidden">
+                
+                </div>
+            </div>
+            
+            <div class="sections">
+                <input type="button" id="questionsBtn" class="buttons" value="Show Detail" onClick="displayQuestions();" />
+                <h2 class="secHeader">Questions</h2>
+                <div id="questions" class="hidden">
+					<ol>
+						<li>
+							<p>
+								JavaScript was designed as a language to use with the DOM in 
+								browsers, which, as in any graphical user interface environment, 
+								entails dealing with events. What language features are included 
+								in JavaScript to support writing event handlers, and how do they 
+								make writing event handlers easier than in a language such as 
+								Java or C++?
+							</p>
+							<p>
+								Because JavaScript was designed to be used with the DOM it 
+								was designed to handle events associated with the GUI. If 
+								the mouse is moved, that is an event. If the page loads, 
+								that is an event. Java and C++ events must be defined, but
+								these events are already defined for use in JavaScript.
+							</p>
+						</li>
+						<li>
+							<p>
+								What are the relative advantages and disadvantages of JavaScript's 
+								prototype-based object system compared to a class-based object 
+								system, particularly with regard to JavaScript's normal place as a 
+								scripting language for web pages?
+							</p>
+							<p>
+								Greater flexibility is the greatest advantage of JavaScript's 
+								prototype-based object system. Rather than having a fixed class
+								that is set at compile time, you have the ability to manipulate 
+								and dynamically use and change the class at run time. This 
+								makes JavaScript a good language for programming web pages as
+								many clients want their pages to be more interactive with the user.
+							</p>
+						</li>
+					</ol>
+			    </div>
+            </div>
+            
+        </div>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=interface\ Iterator
+comment0.text=\nAn\ object\ that\ abstracts\ the\ idea\ of\ iterating\ (looping)\ over\na\ collection\ of\ objects.\n@param\ <E>\ the\ type\ of\ data\ returned\n\n@author\ Todd\ A.\ Whittaker\n@version\ 2005-09\n\n
+comment1.params=
+comment1.target=void\ remove()
+comment1.text=\nRemoves\ the\ previously\ returned\ element\ from\ the\ iteration.\n@throws\ IllegalStateException\ when\ next\ is\ not\ called\nimmediately\ before\ remove.\n\n
+comment2.params=
+comment2.target=boolean\ hasNext()
+comment2.text=\nReturns\ true\ when\ the\ iterator\ has\ more\ data\ to\ return.\n@return\ true\ if\ the\ iterator\ has\ more\ data\n\n
+comment3.params=
+comment3.target=E\ next()
+comment3.text=\nReturns\ the\ next\ element\ from\ the\ iteration.\n@return\ the\ next\ data\ element\n\n
+numComments=4

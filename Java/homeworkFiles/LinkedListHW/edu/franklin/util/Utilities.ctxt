@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=class\ Utilities
+comment0.text=\nA\ set\ of\ utility\ functions\ needed\ in\ collections.\n\n@author\ Todd\ A.\ Whittaker\n@version\ 2005-09\n\n
+comment1.params=orig\ size
+comment1.target=<E>\ E[]\ newArray(E[],int)
+comment1.text=\nCreates\ a\ new\ array\ of\ the\ specified\ size\ based\ on\ the\ type\nof\ the\ array\ given\ as\ a\ parameter.\ \ No\ data\ is\ copied.\n@param\ <E>\ The\ type\ of\ elements\n@param\ orig\ the\ original\ array\n@param\ size\ the\ size\ of\ the\ new\ array\n@return\ a\ new\ array\ of\ the\ type\ and\ size\ specified.\n\n
+comment2.params=orig\ newSize
+comment2.target=<E>\ E[]\ resizeArray(E[],int)
+comment2.text=\nGrows\ or\ shrinks\ an\ array.\ \ Depending\ on\ parameters,\ if\nnewSize\ is\ greater\ than\ the\ original\ array\ length,\ then\nthe\ array\ grows\ to\ newSize.\ \ If\ it\ is\ less,\ then\ it\ shrinks.\nElements\ are\ copied\ from\ the\ original\ to\ the\ new\ array,\ leaving\nthe\ original\ unchanged.\ orig\ can\ be\ <tt>null</tt>,\ in\ which\ncase\ nothing\ is\ copied.\n@param\ <E>\ The\ type\ of\ elements\n@param\ orig\ the\ original\ array\n@param\ newSize\ the\ size\ of\ the\ new\ array\n@return\ a\ new\ array\ with\ data\ copied.\n\n
+comment3.params=obj1\ obj2
+comment3.target=boolean\ nullSafeEquals(Object,Object)
+comment3.text=\nCompares\ two\ objects\ for\ equality\ in\ a\ way\ that\ should\ never\nthrow\ a\ NullPointerException.\n@param\ obj1\ the\ first\ object\ for\ comparison\n@param\ obj2\ the\ second\ object\ for\ comparison\n@return\ true\ of\ obj1\ and\ obj2\ are\ equal\ (even\ if\ null)\n\n
+numComments=4

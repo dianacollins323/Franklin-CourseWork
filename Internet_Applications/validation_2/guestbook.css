@@ -1,0 +1,46 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #E6E6E6;
+	padding: 10px;
+}
+h2 {
+	color: #000066;
+}
+fieldset ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+label {
+	display: block;
+	vertical-align: top;
+}
+fieldset {
+    border: 1px solid;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+}
+div {
+	width: 400px;
+	margin: auto;
+}
+table {
+	border: 1px solid;
+    margin: auto;
+}
+legend {
+	font-weight: bold;
+}
+table th {
+	padding: 5px;
+}
+table td {
+	padding: 5px;
+}
+table #link {
+	text-align: center;
+}
+tr:nth-child(odd) {
+	background: #FFF
+}

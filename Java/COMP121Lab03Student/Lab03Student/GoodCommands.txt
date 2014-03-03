@@ -1,0 +1,15 @@
+ADD DVD desc=Blu Ray,wkRate=9.99,rented=t
+ 
+Add TV desc=Sony,size=42,type=plasma,wkRate=24.95,monRate=24.95
+ 
+add Furniture desc=diningroom chair,monRate=25.00,wkRate=9.99,rented=f
+ 
+REMOVE 1
+ 
+Rent 2 3
+ 
+rent 3 4
+ 
+restock 2
+ 
+update 2 desc=Sony Bravia

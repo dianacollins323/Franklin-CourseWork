@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArrayList()
+comment0.text=\r\n\ Constructs\ an\ empty\ list\ with\ an\ initial\ capacity\ of\ 10.\r\n
+comment1.params=capacity
+comment1.target=ArrayList(int)
+comment1.text=\r\n\ Constructs\ an\ empty\ list\ with\ the\ specified\ initial\r\n\ capacity.\r\n\ @param\ capacity\ the\ number\ of\ array\ elements\ to\ allocate\ initially\r\n\ @throws\ IllegalArgumentException\ if\ the\ specified\ initial\r\n\ capacity\ is\ negative\r\n
+comment2.params=
+comment2.target=int\ size()
+comment2.text=\r\n\ Returns\ the\ number\ of\ elements\ in\ the\ list.\r\n\ @return\ the\ number\ of\ elements\ in\ the\ list.\r\n
+comment3.params=
+comment3.target=void\ clear()
+comment3.text=\r\n\ Removes\ all\ elements\ from\ the\ collection.\ \ The\ collection\ will\r\n\ be\ empty\ after\ calling\ this\ method.\ \ A\ faster\ implementation\ than\r\n\ can\ be\ done\ in\ the\ AbstractCollection\ class.\r\n
+comment4.params=fromIndex\ toIndex
+comment4.target=List\ subList(int,\ int)
+comment4.text=\r\n\ Create\ a\ sublist\ of\ this\ list\ between\ the\ given\ indices.\ \ The\ sublist\r\n\ is\ not\ a\ copy\ of\ the\ elements\ of\ this\ list,\ but\ rather\ a\ restricted\r\n\ view\ on\ them.\ \ Thus,\ any\ insertions,\ deletions,\ or\ replacements\r\n\ of\ elements\ in\ the\ sublist\ will\ affect\ the\ original\ list.\r\n\ \r\n\ WARNING\!\!\!\ \ This\ implementation\ does\ not\ use\ the\ "view"\ philosophy.\r\n\ Any\ changes\ to\ the\ sublist\ will\ <b>not</b>\ be\ reflected\ in\ the\r\n\ original\ list.\r\n\ \r\n\ @param\ fromIndex\ the\ starting\ index\ (inclusive)\ of\ the\ sublist\r\n\ @param\ toIndex\ the\ ending\ index\ (exclusive)\ of\ the\ sublist\r\n\ @return\ a\ restricted\ view\ on\ this\ list\r\n\ @throws\ IndexOutOfBoundsException\ if\ either\ index\ is\ <\ 0\ or\ >\ size.\r\n
+comment5.params=position
+comment5.target=ListIterator\ listIterator(int)
+comment5.text=\r\n\ Returns\ a\ ListIterator\ over\ the\ elements\ in\ this\ list.\ \ The\ starting\r\n\ position\ for\ the\ list\ iterator\ will\ be\ the\ 0th\ element.\r\n\ @return\ a\ ListIterator\ over\ the\ elements\ in\ this\ list.\r\n
+comment6.params=requiredCapacity
+comment6.target=void\ ensureCapacity(int)
+comment6.text=\r\n\ Ensures\ that\ the\ backing\ array\ has\ enough\ capacity\ to\ contain\ at\r\n\ least\ <tt>requiredCapacity</tt>\ items.\ \ If\ not,\ then\ it\ will\r\n\ expand\ the\ capacity\ by\ the\ larger\ of\ either\ the\ required\ capacity\r\n\ or\ 50%\ more\ +\ 1.\r\n\ @param\ requiredCapacity\ the\ desired\ capacity\r\n
+comment7.params=
+comment7.target=void\ trimToSize()
+comment7.text=\r\n\ Trims\ the\ excess\ capacity\ off\ of\ the\ backing\ array,\ reducing\ it\r\n\ to\ size()\ in\ length.\r\n
+numComments=8

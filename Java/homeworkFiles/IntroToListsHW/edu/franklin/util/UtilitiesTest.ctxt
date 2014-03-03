@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=UtilitiesTest()
+comment0.text=\r\n\ Default\ constructor\ for\ test\ class\ UtilitiesTest.\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment3.params=orig\ newSize
+comment3.target=void\ resizeArrayHelper(java.lang.Object[],\ int)
+comment3.text=\r\n\ General\ purpose\ test\ for\ resizing\ arrays.\r\n\ @param\ <E>\ Type\ of\ data\ in\ the\ array\r\n\ @param\ orig\ Array\ of\ data\ from\ which\ to\ copy\r\n\ @param\ newSize\ the\ size\ of\ the\ new\ array\ to\ make\r\n
+comment4.params=
+comment4.target=void\ testResizeArrayGrow()
+comment4.text=\r\n\ Test\ growing\ an\ array.\r\n
+comment5.params=
+comment5.target=void\ testResizeArrayNull()
+comment5.text=\r\n\ Test\ growing\ from\ null\ array.\r\n
+comment6.params=
+comment6.target=void\ testResizeArrayShrink()
+comment6.text=\r\n\ Test\ shrinking\ an\ array.\r\n
+comment7.params=
+comment7.target=void\ testNullSafeEquals()
+comment7.text=\r\n\ Test\ that\ nullSafeEquals\ works.\r\n
+numComments=8

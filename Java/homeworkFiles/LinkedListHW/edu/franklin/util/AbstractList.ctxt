@@ -1,0 +1,40 @@
+#BlueJ class context
+comment0.target=class\ AbstractList
+comment0.text=\nThe\ base\ class\ from\ which\ to\ derive\ List\ implementations.\ \ A\ list\ is\ a\nsequence\ of\ objects\ kept\ in\ a\ container.\ \ Typical\ operations\ are\ to\ add,\nremove,\ and\ iterate\ over\ the\ elements.\ \ This\ class\ provides\ implementations\nfor\ all\ operations\ except\ <tt>size</tt>,\ and\ <tt>listIterator</tt>\ (though\nthe\ provided\ implementations\ may\ be\ inefficient\ for\ some\ concrete\ classes).\nMany\ of\ these\ operations\ can\ (and\ should)\ be\ overridden\ in\ derived\nclasses\ to\ increase\ the\ efficiency\ of\ the\ operation.\ \ In\ particular,\n<tt>addAll</tt>\ is\ a\ good\ candidate\ for\ advanced\ collections.\n\n@param\ <E>\ the\ type\ of\ data\ to\ hold\ in\ the\ collection\n\n@author\ Todd\ A.\ Whittaker\n@version\ 2005-09\n\n
+comment1.target=BAD_POSITION
+comment10.params=
+comment10.target=ListIterator<E>\ listIterator()
+comment10.text=\nGenerate\ a\ list\ iterator\ (bi-directional)\ object\ starting\ at\ the\nbeginning\ of\ the\ list.\n@return\ a\ list\ iterator\ object\n\n
+comment11.params=obj
+comment11.target=int\ lastIndexOf(Object)
+comment11.text=\nReturns\ the\ location\ in\ the\ list\ of\ the\ last\ element\ that\ matches\nthe\ parameter\ object\ <tt>obj</tt>\ according\ to\ its\ equals\ method.\n@param\ obj\ the\ object\ for\ which\ to\ search\n@return\ the\ last\ index\ (from\ 0)\ where\ the\ object\ is\ found,\ or\ -1\nif\ the\ object\ is\ not\ found\ in\ the\ list\n\n
+comment12.params=obj
+comment12.target=boolean\ add(E)
+comment12.text=\nInserts\ an\ element\ into\ a\ list\ at\ the\ end.\ \ Returns\ true\ if\ the\ncollection\ is\ changed\ as\ a\ result\ of\ the\ operation,\ and\ false\notherwise.\n@param\ obj\ the\ object\ to\ add\ into\ the\ collection\n@return\ true\ if\ the\ collection\ is\ altered\n\n
+comment13.params=index\ obj
+comment13.target=void\ add(int,E)
+comment13.text=\nInserts\ the\ element\ into\ the\ list\ at\ the\ given\ location.\n@param\ index\ the\ location\ at\ which\ to\ insert\n@param\ obj\ the\ object\ to\ add\ to\ the\ collection\n\n
+comment2.params=index
+comment2.target=E\ get(int)
+comment2.text=\nReturns\ the\ element\ of\ the\ list\ located\ at\ the\ specified\ index.\n@param\ index\ the\ location\ of\ the\ element\n@return\ the\ element\ at\ the\ index\n\n
+comment3.params=index
+comment3.target=E\ remove(int)
+comment3.text=\nRemoves\ the\ element\ from\ the\ list\ at\ the\ specified\ index.\n@param\ index\ the\ index\ of\ the\ object\ to\ be\ removed\n@throws\ IndexOutOfBoundsException\ if\ index\ <\ 0\ or\ index\ >\=\ size()\n\n
+comment4.params=
+comment4.target=Iterator<E>\ iterator()
+comment4.text=\nGenerate\ an\ iterator\ object\ starting\ at\ the\ beginning\ of\ the\ list.\n@return\ an\ iterator\ object.\n\n
+comment5.params=index
+comment5.target=void\ checkValidIndex(int)
+comment5.text=\nUsed\ to\ check\ whether\ or\ not\ a\ given\ index\ falls\ within\ the\nbounds\ of\ the\ list\ (i.e.\ between\ 0\ inclusive\ and\ size()\ inclusive)\n\n
+comment6.target=modCount
+comment6.text=The\ number\ of\ times\ the\ collection\ has\ been\ structurally\ modified.\ \n
+comment7.params=obj
+comment7.target=int\ indexOf(Object)
+comment7.text=\nReturns\ the\ location\ in\ the\ list\ of\ the\ first\ element\ that\ matches\nthe\ parameter\ object\ <tt>obj</tt>\ according\ to\ its\ equals\ method.\n@param\ obj\ the\ object\ for\ which\ to\ search\n@return\ the\ first\ index\ (from\ 0)\ where\ the\ object\ is\ found,\ or\ -1\nif\ the\ object\ is\ not\ found\ in\ the\ list\n\n
+comment8.params=index\ obj
+comment8.target=E\ set(int,E)
+comment8.text=\nReplaces\ the\ element\ at\ the\ specified\ index\ with\ the\ parameter\nelement.\ \ Returns\ the\ element\ which\ was\ replaced.\n@param\ index\ the\ index\ of\ the\ object\ to\ be\ replaced\n@param\ obj\ the\ object\ to\ use\ as\ a\ replacement\n@return\ the\ object\ originally\ at\ the\ location\n@throws\ IndexOutOfBoundsException\ if\ index\ <\ 0\ or\ index\ >\=\ size()\n\n
+comment9.params=index\ coll
+comment9.target=boolean\ addAll(int,Collection<?\ extends\ E>)
+comment9.text=\nInserts\ all\ the\ elements\ of\ <tt>coll</tt>\ into\ this\ collection\ at\nthe\ specified\ location.\ \ If\ both\ this\ collection\ and\ the\ parameter\nare\ the\ same\ collection,\ then\ the\ operational\ behavior\ is\ undefined\n(i.e.\ bad\ things\ can\ happen).\n@param\ index\ the\ location\ at\ which\ to\ insert\n@param\ coll\ the\ collection\ from\ which\ to\ draw\ elements\ for\ addition.\n@return\ true\ when\ this\ collection\ is\ modified\ as\ a\ result.\n\n
+numComments=14

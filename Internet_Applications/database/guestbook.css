@@ -1,0 +1,66 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #E6E6E6;
+	padding: 10px;
+}
+#main {
+	background-color: #fff;
+	border: 1px solid;
+    width: 420px;
+    padding: 10px;
+}
+#adminMain {
+	background-color: #fff;
+	width: 600px;
+	border: 1px solid;
+}
+h3 {
+	margin: 0 0 10px;
+}
+ul {
+    list-style: none;
+    margin: auto;
+}
+li {
+	background-color: #fff;
+	padding: 5px;
+}
+#formHeader {
+	font-weight: bold;
+	background-color: #E6E6E6;
+}
+.form {
+    border-top: 1px solid #E6E6E6;
+}
+.entries {
+	padding: 0;
+}
+label {
+	display: block;
+	vertical-align: top;
+}
+div {
+	width: 400px;
+	margin: auto;
+    padding: 10px;
+}
+table {
+    margin: auto;
+    margin-bottom: 15px;
+}
+table th {
+	padding: 5px;
+	font-size: 125%;
+}
+table td {
+	padding: 5px;
+}
+table #link {
+	text-align: center;
+}
+tr:nth-child(even) {
+	background: #E6E6E6;
+}
+.error {
+	color: red;
+}

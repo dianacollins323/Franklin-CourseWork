@@ -1,0 +1,131 @@
+body {
+    background: -moz-linear-gradient(top,  #447799,  #fff);
+    background: -webkit-gradient(linear, left top, left bottom, from(#447799), to(#fff));
+}
+
+/* all classes beginning with 'col-' */
+[class*='col-'] {
+  float: left;
+  padding: 20px
+}
+
+/* 2/3 and 1/3 columns */
+.col-2-3 {
+  width: 66.66%;
+}
+
+.col-1-3 {
+    width: 33.33%;
+    height: 100%;
+    height: auto;
+    background-color: #aacccc;
+}
+
+/* clears div so it will stretch around its contents */
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* other styles */
+.h-1 {
+    text-align: center;
+    border-bottom: 2px groove #aacccc;
+    background-color: #aacccc;
+    margin: 0;
+    padding: 20px;
+}
+
+.grid {
+    height: 100%;
+    height: auto;
+    border: 1px groove #aacccc;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+footer {
+    font-size: 80%;
+    text-align: right;
+    padding: 30px;
+}
+
+.h-3 {
+    color: #447799;
+}
+
+.expandBtn {
+    padding: 5px;
+    background-color: #aacccc;
+    width: 250px;
+    text-align: center;
+}
+
+.expandBtn a:link {
+    text-decoration: none;
+    color: #447799;
+}
+
+.expandBtn a:visited {
+    text-decoration: none;
+    color: #447799;
+}
+
+.expandBtn a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 100%;
+}
+
+.menu {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid white;
+    background-color: #aacccc;
+    padding: 10px;
+}
+
+.menu a:link {
+    text-decoration: none;
+    color: #447799;
+}
+
+.menu a:visited {
+    text-decoration: none;
+    color: #447799;
+}
+
+
+.menu a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.reference {
+    text-indent: -25px;
+    padding-left: 25px;
+}
